@@ -11,14 +11,14 @@
             <author>Geoffrey Chaucer (c. 1340s-25 October 1400)</author>
             <respStmt>
                <resp>Editor</resp>
-               <name xml:id="KY">Kristen York</name>
+               <name>Kristen York</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="2"> Text transcribed by using Early English Books Online transcription.</edition>
             <respStmt>
                <resp>Editor</resp>
-               <name xml:id="KY">Kristen York</name>
+               <name>Kristen York</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -29,7 +29,7 @@
                Chaucer, Geoffrey, d. 1400.  [20] p. London: W. Caxton, 1477. <!-- come back to this -->Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Text derived from Early English Books Online (EEBO): http://proxy.library.tamu.edu/login?url=https://www.proquest.com/books/thou-fiers-god-armes-mars-rede/docview/2240866663/se-2?accountid=7082</p>
+            <bibl>Text derived from Early English Books Online (EEBO): http://proxy.library.tamu.edu/login?url=https://www.proquest.com/books/thou-fiers-god-armes-mars-rede/docview/2240866663/se-2?accountid=7082</bibl>
             <bibl>
                <title>Queen Anelida and false Arcyte</title>
                by
@@ -544,7 +544,7 @@
                <l><seg>And ye that may</seg> / <seg>alle harmes amende</seg></l>
                  <l>Haue mynde vpon my supplicacion̄</l>  
                </lg>
-                 <!-- revisit explicit --> Explicit.
+                 <explicit>Explicit.</explicit>
             <pb n="10r"/>
             <lg>
                <l>Whan feyth failleth in prestes sawes</l>
