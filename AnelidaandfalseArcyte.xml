@@ -15,7 +15,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="2"> Text transcribed by using Early English Books Online transcription.</edition>
+            <edition n="1"> Text largely transcribed from the Early English Books Online transcription.</edition>
             <respStmt>
                <resp>Editor</resp>
                <name>Kristen York</name>
@@ -23,10 +23,6 @@
          </editionStmt>
          <publicationStmt>
            <p>Encoded for HIST 690 at Texas A&amp;M University</p>
-                     <p>Thou fiers god of armes, mars the rede
-               Alternate title: Queen Anelida and false Arcyte
-               Bibliographic name/number: STC (2nd ed.) / 5090.
-               Chaucer, Geoffrey, d. 1400.  [20] p. London: W. Caxton, 1477. <!-- come back to this -->Publication Information</p>
          </publicationStmt>
          <sourceDesc>
             <bibl>Text derived from Early English Books Online (EEBO): http://proxy.library.tamu.edu/login?url=https://www.proquest.com/books/thou-fiers-god-armes-mars-rede/docview/2240866663/se-2?accountid=7082</bibl>
@@ -40,7 +36,10 @@
                   </name>
                </author>
                <publisher>Printed by William Caxton</publisher>
+               <pubPlace>London</pubPlace>
                <date when="1477">1477</date>
+               <edition>2nd ed.</edition>
+               <idno type="STC">5090</idno>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -52,7 +51,7 @@
          <head>Anelida and false Arcyte</head>
      <lg>
         <l><seg><hi rend="dropCap">T</hi>hou fiers god of armes</seg> / <seg><name type="myth">mars</name> the rede</seg></l>
-        <l>That in the frosty contre called trace</l>
+        <l>That in the frosty contre called <name type="place">trace</name></l>
      <l>Within thy grysly temple ful of drede</l>
      <l>Honourd art as patron of that place</l>
      <l><seg>With thy bellona</seg> / <seg>pallas ful of grace</seg></l>
@@ -61,7 +60,7 @@
             <lg>
      <l>At my begynnyng thus to the I crye</l>
      <l>For it ful depe is sonken in my mynde</l>
-     <l>With piete{us} herte in <name type="language">english</name> for tendyte</l>
+     <l>With piete9 herte in <name type="language">english</name> for tendyte</l>
      <l>This olde storye in <name type="language">latyn</name> that I fynde</l>
      <l>Of quene <name type="person">anelida</name> &amp; fals <name type="person">arcyte</name></l>
      <l>That elde that all can frete and byte</l>
@@ -80,7 +79,7 @@
             <pb n="1v"/>
             <lg>
                <l>Whan <name type="person">theseus</name> with werres long &amp; grete</l>
-               <l><seg><name type="place"><!-- come back to this. Is it a name? -->Thaspre</name> folk of cithye</seg> / <seg>had ouercome</seg></l>
+               <l><seg><rs type="nationality">Thaspre</rs> folk of <name type="place"> cithye </name></seg> / <seg>had ouercome</seg></l>
                <l>With laurer crowned ī his chare gold bete</l>
                <l>Home to his contre hool is come</l>
                <l><seg>For whiche the peple</seg> / <seg>blisful al and some</seg></l>
@@ -116,7 +115,7 @@
             <l>Of quene <name type="person">anelida</name> / and false <name type="person">arcyte</name></l>            
             </lg>
             <lg>
-            <l><name type="myth">Mars</name> that with his furyo{us}<!-- double check for 9 --> cours of Ire</l>
+            <l><name type="myth">Mars</name> that with his furyo9 cours of Ire</l>
             <l>Tholde wrathe of <name type="myth">Iuno</name> to susfylle</l>
             <l>Hath sette the peples hertes bothe a fire</l>
             <l>Of <name type="place">thebes</name> aud grece / eche other to kylle</l>
@@ -127,7 +126,7 @@
             <lg>
             <l>For whan <name type="person">amphiorax</name> and <name type="person">tideus</name></l>
             <l><name type="person">Ipomedon</name> and / <name type="person">parthonope</name> also</l>
-               <l>Were dede and slayn and proud <name type="person">cāpane{us}</name></l>
+               <l>Were dede and slayn and proud <name type="person">cāpane9</name></l>
            <l> And whan the wretched brethern two</l>
             <l>Were slayn and kyng <name type="person">adrastus</name> hom y go</l>
                <l>So desolate stode <name type="place">thebes</name> / and so bare</l>
@@ -139,7 +138,7 @@
                <l>How the blode ryal was brought adoun</l>
                <l>He helde that cyte by his tyrannye</l>
                <l>And dyde the gentyls of that regyoun</l>
-               <l><seg>To ben his frendes</seg> / <seg>&amp; women in that toun̄</seg><!-- double check accent marks --></l>
+               <l><seg>To ben his frendes</seg> / <seg>&amp; women in that toun̄</seg></l>
                <l>So what for loue of him / &amp; what for awe</l>
                <l>The noble folk were to the toun̄ ydrawe</l>
             </lg>
@@ -163,7 +162,7 @@
             </lg>
             <pb n="3r"/>
             <lg>
-               <l>This <name type="place">theban</name><!--- double check name --> knyght eke soth to seyne</l>
+               <l>This <rs type="nationality">theban</rs> knyght eke soth to seyne</l>
                <l>Was yong &amp; ther with al a lusty knyght</l>
                <l>But he was double in loue &amp; nothing pleyn̄</l>
                <l>And subtyl in that craft ouer ony wight</l>
@@ -262,7 +261,7 @@
                <l><seg>For he bar her on hond</seg> / <seg>of trecherye</seg></l>
                <l><seg>And swore</seg> / <seg>he couthe her doublenes espye</seg></l>
                <l>And al was falsnes that she to hym ment</l> 
-               <l>Th{us} swore this theef &amp; forth his way he went</l>
+               <l>Th9 swore this theef &amp; forth his way he went</l>
             </lg>
             <lg>
                <l><seg>Allas what herte</seg> / <seg>myght enduren it</seg></l>
@@ -317,7 +316,7 @@
                   <l><seg>That for her liste</seg> / <seg>hym dere herte calle</seg></l>
                   <l><seg>And was so meke</seg> / <seg>therfore he loueth her lite</seg></l>
                   <l><seg>The kynde of man̄s herte</seg> / <seg>is to delyte</seg></l>
-                  <l><seg>In thing that stran̄ge is</seg> / <seg>also <!--god what do i do with "god"?--> me saue</seg></l>
+                  <l><seg>In thing that stran̄ge is</seg> / <seg>also <name type="christianity">god</name> me saue</seg></l>
                   <l><seg>For what he may not gete</seg> / <seg>that wold he haue</seg></l>
                </lg>
             <lg>
@@ -327,11 +326,12 @@
                <l><seg>Vpon a day</seg> / <seg>ful sorowful wepyng</seg></l>
                <l>She cast her•for to make a compleynyng</l>
                <l>And of her owen hand she gan it wryte</l>
-               <l>And sende it to her <!-- is this a place --> <name type="place">theban</name> knyght <name type="person">arcyte</name></l>
+               <l>And sende it to her <rs type="nationality">theban</rs> knyght <name type="person">arcyte</name></l>
             </lg>
             <pb n="6r"/>
-            <!-- correct tei here --> <title>Here foloweth the compleynt of <name type="person">anelida</name> quene of <name type="place">hermenye</name> vpon false <name type="person">arcyte</name> of <name type="place">Thebes</name>.</title>
-                  <lg>
+            <div type="section">
+            <head>Here foloweth the compleynt of <name type="person">anelida</name> quene of <name type="place">hermenye</name> vpon false <name type="person">arcyte</name> of <name type="place">Thebes</name>.</head>
+            <lg>
                <l>So thirleth with the poīt of remembrance</l>
                <l><seg>The swerd of sorow</seg> / <seg>whet with fals plesāce</seg></l> 
                <l><seg>My hert bare of blisse</seg> / &amp; <seg>blak of hewe</seg></l>
@@ -415,7 +415,7 @@
                <l><seg>To loue a newe</seg> / <seg>and be vntrewe</seg> / <seg>nay</seg></l>
                <l><seg>And put yow</seg> / <seg>in sklaundre now</seg> / <seg>&amp; blame</seg></l>
                <l><seg>And do to me</seg> / <seg>aduersyte</seg> / <seg>and grame</seg></l>
-               <l><seg>That loue you most</seg> / <seg><!-- how to label god? --> god thou wost</seg> / <seg>alwaye</seg></l> 
+               <l><seg>That loue you most</seg> / <seg><name type="christianity">god</name> thou wost</seg> / <seg>alwaye</seg></l> 
                <l><seg>Yet come agayn</seg> / <seg>&amp; be thou playn</seg> / <seg>som̄ daye</seg></l>
                <l><seg>And then shal this</seg> / <seg>ye nowe is mis</seg> / <seg>be game</seg></l>
                <l><seg>And all foryeue</seg> / <seg>whyle I lyue</seg> / <seg>maye</seg></l>
@@ -427,7 +427,7 @@
                <l>For eyther mote I han you in my cheyn</l>
                <l><seg>Or with the deth</seg> / <seg>ye mote departe vs tweyn</seg></l>
               <l>Ther lye none other mene weyes newe</l>
-               <l><seg>For <!-- how to mark god? --> god so wysly</seg> / <seg>on my soule rewe</seg></l>
+               <l><seg>For <name type="christianity">god</name> so wysly</seg> / <seg>on my soule rewe</seg></l>
                <l>As veryly ye sle me with the peyn</l>
                <l>That may ye se vnfeyned an my hewe</l>
                </lg>
@@ -449,7 +449,7 @@
                <l>For though I had you to morn ageyn</l>
                <l>I myght as wel holde <name type="month">apryll</name> for reyn</l>
                <l><seg>As holden you</seg> / <seg>to make you stedfaste</seg></l>
-               <l>Alle myghty <!-- what to do with "god" --> god of trouth souereyn</l>
+               <l>Alle myghty <name type="christianity">god</name> of trouth souereyn</l>
                <l>Wher is ye trouthe of man who hath it sleyn</l>
                <l>Who ye hym loueth shal hym fynde as faste</l>     
                <l>As in a tempeste is a roten maste</l>
@@ -460,7 +460,7 @@
                <l><seg>But mercy swete</seg> / <seg>yf I mys seye</seg></l>
                <l>Haue I ought seyd out of the weye</l>
                <l><seg>I note</seg> / <seg>my witte is half a weye</seg></l>
-               <l>I fare as doth the songe of <!-- is this a name? -->chanteplure</l>
+               <l>I fare as doth the songe of chanteplure</l>
                <l><seg>For now I pleyne</seg> / <seg>and now I pleye</seg></l>
                <l>I am so marred that I deye</l>
             </lg>
@@ -504,7 +504,9 @@
                <l><seg>How that <name type="person">arcite</name></seg> / <seg><name type="person">anelida</name> so sore</seg></l>
                <l>Hath thirled with the peynt of remēbrāce</l>
              </lg> 
-               <title>Thus endeth the compleynt of <name type="person">anelida</name></title> <!-- do this later -->
+            </div>
+         <div type="section">
+               <head>Thus endeth the compleynt of <name type="person">anelida</name></head>
              <lg>
                <l>The {con}pleīt of chaucer vnto his empty purse</l>
                <l><seg>To you my purs</seg> / <seg>and to none other wight</seg></l>
@@ -535,8 +537,10 @@
                <l><seg>For I am •haue</seg> / <seg>as nyghe as ony frere</seg></l>
                <l>But I pray vnto your curtoisye</l>
                <l><seg>Be heuy agayn</seg> / <seg>or ellis mote I dye</seg></l>
-               </lg>             
-               <title>The nouye of <name type="person">chaucer</name> vnto the kynge</title><!-- come back to later -->
+               </lg>      
+         </div>
+            <div type="section">
+               <head>The nouye of <name type="person">chaucer</name> vnto the kynge</head>
                <lg>
                <l>O conquerour of <name type="place">brutes albyon</name></l>
                <l><seg>Whiche that by lyne</seg> / <seg>and fre election̄</seg></l>
@@ -544,7 +548,7 @@
                <l><seg>And ye that may</seg> / <seg>alle harmes amende</seg></l>
                  <l>Haue mynde vpon my supplicacion̄</l>  
                </lg>
-                 <explicit>Explicit.</explicit>
+                 <ab type="explicit">Explicit.</ab>
             <pb n="10r"/>
             <lg>
                <l>Whan feyth failleth in prestes sawes</l>
@@ -564,7 +568,8 @@
                <l>And gadre to gidre wordes good</l>
                <l>The werk of wisedom herith witnes</l>
                </lg>
-              <!-- revisit this --> Et sic est finis
+               <ab type="latin">Et sic est finis</ab>
+            </div>
          </div>
       </body>
   </text>
