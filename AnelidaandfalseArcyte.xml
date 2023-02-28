@@ -568,7 +568,7 @@
                <l>And gadre to gidre wordes good</l>
                <l>The werk of wisedom herith witnes</l>
                </lg>
-               <ab type="latin">Et sic est finis</ab>
+               <closer xml:lang = "lat">Et sic est finis</closer>
             </div>
          </div>
       </body>
