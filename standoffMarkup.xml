@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>My Standoff Markup for Queen Anelida and false Arcyte</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Kristen York</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Encoded for HIST 690 at Texas A&amp;M University</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Standoff Markup Born digital</bibl>
+            <bibl>
+               <title>Queen Anelida and false Arcyte</title>
+               by
+               <author>
+                  <name>
+                     <forename>Geoffrey</forename>
+                     <surname>Chaucer</surname>
+                  </name>
+               </author>
+               <publisher>Printed by William Caxton</publisher>
+               <pubPlace>London</pubPlace>
+               <date when="1477">1477</date>
+               <edition>2nd ed.</edition>
+               <idno type="STC">5090</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="chaucer">
+            <persName>Geoffrey Chaucer</persName>
+            <sex>Male</sex>
+            <note>Author of the text</note>
+         </person>
+         <person xml:id="god">
+            <persName type="christianity">God</persName>
+            <sex>Male</sex>
+         </person>
+         <person xml:id="arcyte">
+            <persName>Arcyte</persName>
+            <sex>Male</sex>
+            <nationality>Theban</nationality>
+            <note>Theban knight</note>
+         </person>
+         <person xml:id="theseus">
+            <persName>Theseus</persName>
+            <sex>Male</sex>
+            <nationality>Athenian</nationality>
+            <note>King of Athens</note>
+         </person>
+         <person xml:id="mars">
+            <persName type="myth">Mars</persName>
+            <sex>Male</sex>
+            <note>Roman god of war</note>
+         </person>
+         <person xml:id="amphiorax">
+            <persName>Amphiorax</persName>
+            <sex>Male</sex>
+            <note>Name translates to Amphiaraus. Traditionally one of the Seven against Thebes</note>
+         </person>
+         <person xml:id="tideus">
+            <persName>Tideus</persName>
+            <sex>Male</sex>
+            <note>Name translates to Tydeus. Traditionally one of the Seven against Thebes</note>
+         </person>
+         <person xml:id="ipomedon">
+            <persName>Ipomedon</persName>
+            <sex>Male</sex>
+            <note>Name translates to Hippomedon. Traditionally one of the Seven against Thebes</note>
+         </person>
+            <person xml:id="parthonope">
+               <persName>Parthonope</persName>
+               <sex>Male</sex>
+               <note>Name translates to Parthenopaeus. Traditionally one of the Seven against Thebes</note>
+         </person>
+         <person xml:id="capaneus">
+            <persName>Capaneus</persName>
+            <sex>Male</sex>
+            <note>Traditionally one of the Seven against Thebes</note>
+         </person>
+         <person xml:id="adrastus">
+            <persName>Adrastus</persName>
+            <sex>Male</sex>
+            <note>Traditionally one of the Seven against Thebes</note>
+         </person>
+         <person xml:id="creon">
+            <persName>Creon</persName>
+            <sex>Male</sex>
+            <note>King of Thebes</note>
+         </person>
+          <person xml:id="henry4">
+             <name>Henry IV</name>
+             <sex>Male</sex>
+             <note>Also known as Henry Bolingbroke, who deposed Richard II and became Henry IV in 1400</note>
+         </person>
+         <person xml:id="anelida">
+            <persName>Anelida</persName>
+            <sex>Female</sex>
+            <nationality>Armenian</nationality>
+            <note>Queen of Armenia</note>
+         </person>
+         <person xml:id="ipolita">
+            <persName>Ipolita</persName>
+            <sex>Female</sex>
+            <nationality>Cythian</nationality>
+            <note>Wife of Theseus, queen of Cythia, and sister to Emelie</note>
+         </person>
+         <person xml:id="emelie">
+            <persName>Ipolita</persName>
+            <sex>Female</sex>
+            <nationality>Cythian</nationality>
+            <note>Sister to Ipolita</note>
+         </person>
+         <person xml:id="polimia">
+            <persName>Polimia</persName>
+            <sex>Female</sex>
+            <note>A Greek muse</note>
+         </person>
+         <person xml:id="iuno">
+            <persName>Iuno</persName>
+            <sex>Female</sex>
+            <note>Chief Roman goddess. Name translates to Juno</note>
+         </person>
+         <person xml:id="bellona">
+            <persName>Bellona</persName>
+            <sex>Female</sex>
+            <note>Roman goddess of war</note>
+         </person>
+         <person xml:id="penolope">
+            <persName>Penolope</persName>
+            <sex>Female</sex>
+            <note>Translated to Penelope. Traditionally the wife of Odysseus</note>
+         </person>
+         <person xml:id="lucres">
+            <persName>Lucres</persName>
+            <sex>Female</sex>
+            <note>Translated to Lucretia or Lucrece. A noblewoman in ancient Rome, whose rape by Sextus Tarquinius (Tarquin) and subsequent suicide resulted in a rebellion and the transition of Roman government from a kingdom to a republic.</note>
+         </person>
+         <person xml:id="lady">
+            <name>Lady</name>
+            <sex>Female</sex>
+            <note>Woman who Arcyte pursues, which betrays his marriage to Anelida </note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="trace">
+            <placeName>Trace</placeName>
+            <country>Greece</country>  
+            <note>Translates to Thrace</note>
+         </place>
+         <place xml:id="pernaso">
+            <placeName>Pernaso</placeName>
+            <note>Translates to Mount Parnassus</note>
+         </place>
+         <place xml:id="elycon">
+            <placeName>Elycon</placeName>
+         </place>
+         <place xml:id="cirrea">
+           <placeName>Cirrea</placeName> 
+         </place>
+         <place xml:id="cithye">
+          <placeName>Cithye</placeName>  
+            <note>Country of which Ipolita is queen</note>
+         </place>
+         <place xml:id="atthenes">
+            <placeName>Atthenes</placeName>
+            <country>Greece</country>  
+            <note>Translates to Athens</note>
+         </place>
+         <place xml:id="thebes">
+            <placeName>Thebes</placeName>
+            <country>Greece</country>  
+            <note>Country of Arcyte's origin</note>
+         </place>
+         <place xml:id="ermonye">
+            <placeName>Ermonye</placeName>
+            <note>Translates to Armenia</note>
+         </place>
+         <place xml:id="britain">
+            <placeName>Brutes Albyon</placeName>
+            <note>Brutus was the legendary founder of Britain, which was named after him. "Albion" is the ancient Celtic name for Britain</note>
+         </place>
+      </listPlace>
+      <listObject>
+        <object xml:id="purse">
+           <objectIdentifier>
+              <objectName>purse</objectName>
+           </objectIdentifier>
+        </object> 
+      </listObject>
+   </standOff>
+</TEI>
