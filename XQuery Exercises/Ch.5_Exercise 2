@@ -1,0 +1,5 @@
+xquery version "3.1";
+
+let $my-name := "Kristen"
+
+return fn:concat("Hi! My name is", $my-name)
