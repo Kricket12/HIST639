@@ -4,4 +4,4 @@ let $names := ("Joe", "Cliff", "George")
 
 for $name in $names
 
-return fn:concat(Hi! My name is ", $name, "!")
+return fn:concat("Hi! My name is ", $name, "!")

@@ -3,3 +3,4 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 <tei:placeName>
    { fn:concat("New York City", ", ", "NY") }
 </tei:placeName>
+   
