@@ -1,0 +1,39 @@
+xquery version "3.1";
+module namespace tf = "http://xquery.forhumanists.org/tei-functions";
+declare namespace tei = "http://www.tei-c.org/ns/1.0";
+
+declare function tf:construct-english-persName ($surname as xs:string, $forename as xs:string) 
+as element (tei:persName)
+{
+<persName xmlns="http://www.tei-c.org/ns/1.0">
+    <forename>Shinpei</forename>
+    <surname>Goto</surname>
+</persName>
+};
+
+declare function tf:transform-persName($surname as xs:string, $forename as xs:string) 
+as element (tei:persName)
+{
+<persName xmlns="http://www.tei-c.org/ns/1.0">
+    <forename>{ $forename }</forename>
+    <surname>fn:uppercase ( {$surname} )</surname>
+</persName>
+};
+
+declare function tf:transform-persName-into-english-list($surname as xs:string, $forename as xs:string) 
+as element (tei:persName)
+{
+<persName xmlns="http://www.tei-c.org/ns/1.0">
+    <forename>{ $forename }</forename>
+    <surname>fn:uppercase ( {$surname} )</surname>
+</persName>
+    
+};
+
+declare function tf:transform-persNames-to-html-list ($surname as xs:string, $forename as xs:string) 
+as element (tei:persName)
+
+{
+<persName xmlns="http://www.tei-c.org/ns/1.0">
+    <name>{functx:add-attributes(li)$name</name>
+</persName>

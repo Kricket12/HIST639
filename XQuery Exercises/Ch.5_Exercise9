@@ -1,0 +1,22 @@
+xquery version "3.1";
+declare namespace tei = "http://www.tei-c.org/ns/1.0";
+declare function local:transform-persName-into-english-list($surname as xs:string, $forename as xs:string) 
+as element (tei:persName)
+{
+<persName xmlns="http://www.tei-c.org/ns/1.0">
+    <forename>{ $forename }</forename>
+    <surname>fn:uppercase ( {$surname} )</surname>
+</persName>
+    
+};
+
+<forename>Shinpei</forename>
+    <surname>Goto</surname>
+    <forename>Gentaro</forename>
+    <surname>Kodama</surname>
+    <forename>Kenjiro</forename>
+    <surname>Den</surname>
+</persName> 
+
+local:transform-persName-into-english-list ($surname, $forename)
+)

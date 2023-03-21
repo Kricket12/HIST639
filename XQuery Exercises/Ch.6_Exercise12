@@ -1,0 +1,19 @@
+xquery version "3.1";
+module namespace tf = "http:xquery.forhumanists.org/tei-functions";
+import module namespace functx = "http://www.functx.com" at "http://www.xqueryfunctions.com/xq/functx-1.0-doc-2007-01.xq";
+
+declare namespace tei = http://www.tei-c.org/ns/1.0";
+
+declare function local:transform-persNames-to-html-list ($surname as xs:string, $forename as xs:string) 
+as element (tei:persName)
+
+{
+<persName xmlns="http://www.tei-c.org/ns/1.0">
+    <name>{functx:add-attributes(li)$name</name>
+</persName>
+
+<name>John Smith</name>
+<name>Jane Doe</name>
+<name>Bob Johnson</name>
+
+local:transform-persName-to-html-list ("John Smith", "Jane Doe", "Bob Johnson")
