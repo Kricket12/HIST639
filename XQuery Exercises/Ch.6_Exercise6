@@ -1,9 +1,13 @@
-let $name1 := "Shinpei Goto"
-let $name2 := "Gentaro Kodama"
-let $name3 := "Kenjiro Den"
-let $join-names := 
-function ($name1 as xs:string, $name2 as xs:string, $name3 as xs:string) 
-    as xs:string {
-    fn:concat ($name1, $name2, "and ", $name3)
-    }
- return $join-names ($name1, $name2, $name3)
+xquery version "3.1";
+
+let names:= ("Shinpei Goto", "Gentaro Kodama", "Kenijiro Den")
+let $sorted := fn:sort($names)
+let $construct-english-list :=
+    function ($list as xs:string* as xs:string
+
+{
+fn:concat(fn:string-join(fn:subsequence($list, 1, 2), ", "), ", and ", fn:subsequence($list, 3))};
+
+let $names :=  
+
+return $construct-english-list($names)

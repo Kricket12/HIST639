@@ -1,13 +1,10 @@
 xquery version "3.1";
-declare namespace tei = "http://www.tei-c.org/ns/1.0";
-declare function local:construct-english-list ($name1 as xs:string, $name2 as xs:string, $name3 as xs:string?) 
-as element (tei:list)
-{
-<name xmlns="http://www.tei-c.org/ns/1.0">
-<name>{ $name1 }</name>
-<name>{ $name2 }</name>
-<name>{ $name3 }</name>
-};
 
-local:construct-english-list("Shinpei Goto", "Gentaro Kodama", "Kenjiro Den")
 
+
+declare function local:construct-english-list( $list as xs:string*) as xs:string
+{ fn:concat(fn:string-join(fn:subsequence($list, 1, 2), ", "), ", and ", fn:subsequence($list, 3))};
+
+let $names := ("Shinpei Goto", "Gentaro Kodama", "Kenijiro Den") 
+
+return local:construct-english-list(construct-english-list($names)
