@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>excerpt from Life of Samuel Richardson with Remarks on his Writings</title>
+            <author>Anna Barbauld</author>
+            <editor>Mary A. Waters edited this essay for The Criticism Archive.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CoDHR @ TAMU, Digital Editions, Start to Finish</publisher>
+            <date when="2022-10-27">Fall 2022</date>
+            <idno type="local">barbauld1804CX</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title type="main" level="a">LIFE OF SAMUEL RICHARDSON, WITH REMARKS ON HIS
+                  WRITINGS.</title>
+               <title type="sub">From The Correspondence of Samuel Richardson, author of
+                     <title>Pamela</title>, <title>Clarissa</title>, and <title>Sir Charles
+                     Grandison</title>. Selected from the original manuscripts, bequeathed by him to
+                  his family, to which are prefixed, a biographical account of that author, and
+                  observations on his writings, by</title>
+               <author><name>Anna Letitia Barbauld,</name></author>
+               <biblScope>6 Vols.</biblScope>
+               <pubPlace>(<placeName ref="#London">London</placeName>:</pubPlace>
+               <publisher>printed for Richard Phillips, no. 71, St. Paul's Church-Yard, Lewis and
+                  Roden, Printers, Paternoster-Row,</publisher>
+               <date>1804),</date>
+               <biblScope>1:vii-ccxii.</biblScope></bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="biography">
+            <head>
+               <bibl>
+                  <author><name ref="#BarbauldMrs">Anna Letitia Barbauld</name></author>
+                  <hi rend="small">excerpt from the</hi>
+                  <title type="main" level="m">
+                     <hi rend="large">LIFE </hi>
+                     <lb/>
+                     <hi rend="smcaps">OF</hi>
+                     <lb/>
+                     <hi rend="large">SAMUEL RICHARDSON,</hi>
+                     <lb/>WITH <lb/>
+                     <hi rend="small">REMARKS ON HIS WRITINGS.</hi>
+                     <note>From <hi rend="italic">The Correspondence of <name
+                              ref="#RichardsonSamuel">Samuel Richardson</name>, author of
+                              <title>Pamela</title>, <title>Clarissa</title>, and <title>Sir Charles
+                              Grandison</title>. Selected from the original manuscripts, bequeathed
+                           by him to his family, to which are prefixed, a biographical account of
+                           that author, and observations on his writings, by <name
+                              ref="#BarbauldMrs">Anna Letitia Barbauld</name></hi>, 6 Vols. (<placeName ref="#London">London</placeName>
+                        printed for Richard Phillips, no. 71, St. Paul's Church-Yard, Lewis and
+                        Roden, Printers, Paternoster-Row, 1804), 1:vii-ccxii. Mary A. Waters edited
+                        this essay for <ref
+                           target="https://poetess.dh.tamu.edu/criticism/work/BarbLifeRichardson1804"
+                           >The Criticism Archive</ref>.</note>
+                  </title>
+               </bibl>
+            </head>
+            <pb n="clxi"/>
+            <p>[. . . .]</p>
+            <p> The author of <title ref="#Clarissa">Clarissa</title> was always fond of female society. He lived in
+               a kind of flower-garden of ladies: they were his inspirers, his critics, his
+               applauders. Connections of business apart, they were his chief correspondents. He had
+               generally a number of young ladies at his house, whom he used to engage in
+               conversation on some subject of sentiment, and provoke, by artful opposition, to
+               display the treasures of intellect they possessed. <name ref="#ChaponeMrs">Miss
+                  Mulso</name>, afterwards <name ref="#ChaponeMrs">Mrs. Chapone</name>; <name
+                  ref="#DuncombeSusanna">Miss Highmore</name>, now <name ref="#DuncombeSusanna">Mrs.
+                  Duncombe</name>; <name ref="#TalbotCatherine">Miss Talbot</name>, niece to <name
+                  ref="#SeckerThomas">Secker</name>, and author of some much esteemed devotional
+               pieces; <name ref="#PrescottMary">Miss Prescott</name>, afterwards <name
+                  ref="#PrescottMary">Mrs. Mulso</name>; <name ref="#FieldingSarah">Miss
+                  Fielding</name>s; and <name ref="#CollierJane">Miss Collier</name>s, resided
+               occasionally with him. He was accustomed to give the young ladies he esteemed the
+               endearing appellation of <pb n="clxii"/> his daughters. He used to write in a little
+               summer-house, or grotto<note>The same of which an engraving is given in the work
+                     [<name ref="#BarbauldMrs">Barbauld</name>'s note].</note>, as it was called,
+               within his garden, before the family were up; and, when they met at breakfast, he
+               communicated the progress of his story, which, by that means, had every day a fresh
+               and lively interest. Then began the criticisms, the pleadings, for <name
+                  ref="#HarrietByron">Harriet Byron</name> or <name ref="#Clementina"
+                  >Clementina</name>; every turn and every incident was eagerly canvassed, and the
+               author enjoyed the benefit of knowing before-hand how his situations would strike.
+               Their own little partialities and entanglements, too, were developed, and became the
+               subject of grave advice, or lively raillery. <name ref="#DuncombeSusanna">Mrs.
+                  Duncombe</name> thus mentions the agreeable scene, in a letter to <name
+                  ref="#PrescottMary">Mrs. Mulso</name>.</p>
+            <quote>
+               <p>I shall often, in idea, enjoy again the hours that we have so agreeably spent in
+                  the delightful retirement of North End: </p>
+            </quote>
+            <quote>
+               <lg type="stanza">
+                  <l rend="indent6">For while this pleasing subject I pursue,</l>
+                  <l rend="indent6">The grot, the garden, rush upon my view;</l>
+
+                  <pb n="clxiii"/>
+                  <!--silently corrected from cxliii-->
+                  <l rend="indent6">There, in blest union, round the friendly gate, </l>
+                  <l rend="indent6">Instruction, Peace, and chearful Freedom wait; </l>
+                  <l rend="indent6">And there, a choir of list'ning nymphs appears </l>
+                  <l rend="indent6">Oppress'd with wonder, or dissolved in tears; </l>
+                  <l rend="indent6">But on her tender fears when Harriet dwells, </l>
+                  <l rend="indent6">And love's soft symptoms innocently tells,</l>
+                  <l rend="indent6">They all, with conscious smiles, those symptoms view, </l>
+                  <l rend="indent6">And by those conscious smiles confess them true. </l>
+               </lg>
+            </quote>
+            <p>
+               <name ref="#RichardsonSamuel">Mr. Richardson</name> was a friend to mental
+               improvement in women, though under all those restrictions which modesty and decorum
+               have imposed upon the sex. Indeed, his sentiments seem to have been more favourable
+               to female literature, before than after his intercourse with the fashionable world;
+               for <name ref="#ClarissaHarlowe">Clarissa</name> has been taught Latin, but <name
+                  ref="#HarrietByron">Miss Byron</name> is made to say, that she does not even know
+               which are meant by the learned languages, and to declare, that a woman who knows them
+               is an owl among the birds. The prejudice against any appearance of extraordinary
+               cultivation in women, was, at that period, very strong. It will scarcely be believed,
+                  <pb n="clxiv"/> by this generation, that <name ref="#DelanyMrs">Mrs.
+               Delany</name>, the accomplished <name ref="#DelanyMrs">Mrs. Delany</name>, objects to
+               the words <hi rend="italic">intellect</hi> and <hi rend="italic">ethics</hi>, in one
+               of the conversation pieces, in <title ref="#Grandison">Grandison</title>, as too scholastic to proceed
+               from the mouth of a female. What would some of these critics have said, could they
+               have heard young ladies talking of gases, and nitrous oxyd, and stimuli, and
+               excitability, and all the terms of modern science. The restraint of former times was
+               painful and humiliating; what can be more humiliating than the necessity of affecting
+               ignorance? and yet, perhaps, it is not undesirable that female genius should have
+               something to overcome; so much, as to render it probable, before a woman steps out of
+               the common walks of life, that her acquirements are solid, and her love for
+               literature decided and irresistible. These obstacles did not prevent the
+                  <title ref="#Epictetus">Epictetus</title> of <name ref="#CarterElizabeth">Mrs. Carter</name>, nor
+               the volumes of <name ref="#ChaponeMrs">Mrs. Chapone</name>, from being written and
+               given to the world.<pb n="clxv"/>
+            </p>
+            <p> The moral qualities of <name ref="#RichardsonSamuel">Richardson</name> were crowned
+               with a serious and warm regard for religion; it is conspicuous in all his works; and
+               we shall, probably, not find any writings, of the class of novels, in which virtue
+               and piety are so strongly and uniformly recommended, without any party spirit, or
+               view to recommend a particular system, and it would be doing injustice to the taste
+               of the world not to say that they were highly valued on that account. The house of
+                  <name ref="#RichardsonSamuel">Richardson</name> was a school of virtuous sentiment
+               and good morals. The following letter, from <name ref="#ReichErasmus">Mr.
+                  Reich</name>, of Leipsic, shews the pleasing impression a visit to him made on the
+               lively feelings of a foreigner. </p>
+            <quote>
+               <p> You know, Sir, I set out for England purely with a view of cultivating a personal
+                  acquaintance with so great a man as <name ref="#RichardsonSamuel">Mr. Samuel
+                     Richardson</name>, who had so long endeared himself to me by his works, and
+                  who, afterwards, by the corres- <pb n="clxvi"/> pondence established between us,
+                  granted me his friendship. I arrived at <placeName ref="#London">London</placeName> the eighth of August, and had not
+                  much difficulty in finding <name ref="#RichardsonSamuel">Mr. Richardson</name> in
+                  this great city. He gave me a reception worthy of the author of
+                     <title ref="#Pamela">Pamela</title>, <title ref="#Clarissa">Clarissa</title>, and <title ref="#Grandison">Grandison</title>;
+                  that is, with the same heart which appears throughout his works. His person, his
+                  family, and even his domestics, all answer this character. He carried me into his
+                  library, and his printing-house, (for he is a printer), in both which I never saw
+                  things so well disposed. Sunday following, I was with him at his country-house,
+                  (Selby-house) where his family was, with some ladies, acquaintances of his four
+                  daughters, who, with his lady, compose his family. It was there I saw beauties
+                  without affectation; wit without vanity; and thought myself transported to an
+                  inchanted land. After chocolate, <name ref="#RichardsonSamuel">Mr.
+                     Richardson</name> brought <pb n="clxvii"/> us into the garden, adjoining to the
+                  house. He invited me to partake of its fruits, of which the trees afforded the
+                  finest of their kind; and, perceiving that I hesitated, gathered some himself,
+                  which he presented to me. Every thing I saw, every thing I tasted, recalled to me
+                  the idea of the golden age. Here are to be seen no counterfeits, such as are the
+                  offspring of vanity, and the delight of fools. A noble simplicity reigns
+                  throughout, and elevates the soul. The harmony of this charming family furnished
+                  me with many reflections on the common ill-judged methods of education, whence
+                  springs the source either of our happiness or misery. The ladies affected not that
+                  stiff preciseness peculiar to coquettes. Trained up by a parent who instructs
+                  them, still more by his example than by his works, they strive to imitate him;
+                  and, if you feel a tenderness for objects so lovely, you will <pb n="clxviii"/>
+                  surely be sensible of a still greater respect for them. </p>
+               <p> In the middle of the garden, over against the house, we came to a kind of grotto,
+                  where we rested ourselves. It was on this seat, <name ref="#LeFevreJohn">Mr. Le
+                     Fevre</name>, (<name ref="#RichardsonSamuel">Mr. Richardson</name>'s friend)
+                  told me, that <name ref="#PamelaAndrews">Pamela</name>, <name
+                     ref="#ClarissaHarlowe">Clarissa</name>, and <name ref="#SirCharlesGrandison"
+                     >Grandison</name>, received their birth; I kissed the ink-horn on the side of
+                  it. We afterwards proceeded to table, (dinner,) where an opportunity was offered
+                  me of reading the letters written to me by <name ref="#SackAntoinette">Malle.
+                     Sack</name>, from <placeName ref="#Berlin">Berlin</placeName>, concerning my voyage, and Mr. <name
+                     ref="#RichardsonSamuel">Richardson</name>. One might in them discern that wit
+                  which is the peculiar characteristic of that lady; and, every one listened with
+                  the closest attention to whatever truth obliged me to say concerning her.
+                  Whereupon <name ref="#RichardsonSamuel">Mr. Richardson</name> observed to me, that
+                  the ladies in company were all his adopted daughters: that he should be very proud
+                     <pb n="clxix"/> to give to them, as well as to his own, so charming a sister;
+                  and desired to signify as much to her, and to send her his picture, which he gave
+                  me for that purpose. The rest of our discourse turned on the merits of <name
+                     ref="#GellertChristian">Mr. Gellert</name>, and of some other Germans of
+                  distinction. I told him, we had the same reason to glory in our relationship, as
+                  countrymen of these worthy gentlemen, as the English had in regard to him. <name
+                     ref="#RichardsonSamuel">Mr. Richardson</name>'s usual modesty dictated his
+                  answer. Towards evening he brought me to <placeName ref="#London">London</placeName>, where he made me promise to come
+                  and see him as often as I could. On the Sunday following I was with him again at
+                  his pleasant country seat. We found there a large company, all people of merit;
+                     <name ref="#MillerPhilip">Mr. Miller</name>, author of the <title>Gardener's
+                     Dictionary</title>, (which has been translated at <placeName ref="#Nurnburg">Nurnburg</placeName>, with such success),
+                  and <name ref="#HighmoreJoseph">Mr. Highmore</name>, the famous painter, <fw
+                     type="vol">
+                     <hi rend="smcaps">vol. i.</hi>
+                  </fw>
+                  <fw type="sig">h</fw>
+                  <pb n="clxx"/> were there. This last, two days afterwards, conferred on me a
+                  genteel piece of civility, which I shall never forget: he must, indeed, be the
+                  accomplished gentleman he appears to be, by obliging with so good a grace. I was
+                  extremely concerned on not seeing his only daughter, who was in the country. I
+                  have read some of her letters, which excite in me the highest esteem both for her
+                  understanding and her heart. In the evening I took my leave of the family, and
+                  returned with <name ref="#RichardsonSamuel">Mr. Richardson</name>. I saw him
+                  several times since, during the eight days I staid in England; but it was
+                  necessary, at last, to quit that divine man. I gave him the letter entitled No. I.
+                  he embraced me, and a mutual tenderness deprived us of speech. He accompanied me
+                  with his eyes as far as he could: I shed tears. </p>
+            </quote>
+            <p> There is one fault of which it will not <pb n="clxxi"/> be easy to clear our author.
+               It is said that he was vain; he was fed with praise, and, with regard to that diet,
+               it may be truly affirmed, that </p>
+            <quote>
+               <lg type="stanza">
+                  <l>———— increase of appetite doth grow </l>
+                  <l>By what it feeds on.<note>
+                        <name ref="#ShakespeareWilliam">Shakespeare</name>, <hi rend="italic">
+                           <title>Hamlet</title>
+                        </hi> I.ii.143-4.</note>
+                  </l>
+               </lg>
+            </quote>
+            <p> In the circle of his admirers, his own works occupied, naturally, a large share of
+               conversation; and he had not the will, nor perhaps the variety of knowledge necessary
+               to turn it on other topics. The same subject forms the prominent feature in his
+               correspondencies.—Impartiality, perhaps, requires a biographer to notice the opinion
+               of such a man as <name ref="#JohnsonSamuel">Johnson</name>, delivered through the
+               medium of <name ref="#BoswellJames">Mr. Boswell</name>'s memory, as follows, giving
+               an account of a conversation at <name ref="#NairneWilliam">Mr. Nairne</name>'s, where
+                  <name ref="#JohnsonSamuel">Dr. Johnson</name> drew the character of <name
+                  ref="#RichardsonSamuel">Richardson</name>. "I only remember that he expressed a
+               high value for his talents and virtues: But that his perpetual study <fw type="sig">h
+                  2</fw>
+               <pb n="clxxii"/> was to ward off petty inconveniences, and to procure petty
+               pleasures; that his love of continual superiority was such, that he took care always
+               to be surrounded by women, who listened to him implicitly, and did not venture to
+               contradict his opinions; and that his desire of distinction was so great, that he
+               used to give large vails to Speaker <name ref="#OnslowArthur">Onslow</name>'s
+               servants, that they might treat him with respect."<note>
+                  <name ref="#BoswellJames">James Boswell</name> paraphrasing <name
+                     ref="#JohnsonSamuel">Dr. Johnson</name>. See <name ref="#BoswellJames"
+                     >Boswell</name>'s <hi rend="italic">
+                     <title>Life of <name ref="#JohnsonSamuel">Dr. Johnson</name>
+                     </title>
+                  </hi>, ed. George Birbeck, rev. L.F. Powell. 6 vols. (Oxford: Clarendon P, 1950)
+                  5.395-6.</note>
+            </p>
+            <p> It may be observed upon this, that the ladies he associated with were well able to
+               appreciate his works. They were both his critics and his models, and from their
+               sprightly conversation, and the disquisitions on love and sentiment, which took
+               place, he gathered what was more to his purpose than graver topics would have
+               produced. He was not writing a dictionary, like <name ref="#JohnsonSamuel"
+                  >Johnson</name>, or a history, like <name ref="#GibbonEdward">Gibbon</name>. He
+               was a novel writer; his business was not only with the human heart, but with the
+               female heart. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

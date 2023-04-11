@@ -3,14 +3,26 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>ODD</title>
+        <title>ODD for Queen Anelida and false Arcyte</title>
       </titleStmt>
       <publicationStmt>
-        <p>Publication Information</p>
+        <p>ODD for HIST 690 at Texas A&amp;M University</p>
       </publicationStmt>
       <sourceDesc>
-        <p>Information about the source</p>
-      </sourceDesc>
+          <bibl>Standoff Markup Born digital</bibl>
+          <bibl>
+            <title>Queen Anelida and false Arcyte</title>
+            by
+            <author>
+              <name>Geoffrey Chaucer</name>
+            </author>
+            <publisher>Printed by William Caxton</publisher>
+            <pubPlace>London</pubPlace>
+            <date when="1477">1477</date>
+            <edition>2nd ed.</edition>
+            <idno type="STC">5090</idno>
+          </bibl>
+        </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
@@ -20,9 +32,10 @@
         <moduleRef key="core"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure"/>
-      <elementSpec module="">
-        
-      </elementSpec>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="verse" include="seg"/>
+        <moduleRef key="textstructure" exclude= "div1 div2 div3 div4 div5 div6 div7"/>
+        <!--add additional limitations once TEI is updated to fit new research questions-->
       </schemaSpec>
     </body>
   </text>
