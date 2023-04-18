@@ -1,0 +1,591 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Queen Anelida and false Arcyte</title>
+            <title type="subordinate">Thou fiers god of armes, mars the rede</title>
+            <author>Geoffrey Chaucer (c. 1340s-25 October 1400)</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Kristen York</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1"> Text largely transcribed from the Early English Books Online transcription.</edition>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Kristen York</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+           <p>Encoded for HIST 690 at Texas A&amp;M University</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Text derived from Early English Books Online (EEBO): http://proxy.library.tamu.edu/login?url=https://www.proquest.com/books/thou-fiers-god-armes-mars-rede/docview/2240866663/se-2?accountid=7082</bibl>
+            <bibl>
+               <title>Queen Anelida and false Arcyte</title>
+               by
+               <author>
+                  <name>
+                     <forename>Geoffrey</forename>
+                     <surname>Chaucer</surname>
+                  </name>
+               </author>
+               <publisher>Printed by William Caxton</publisher>
+               <pubPlace>London</pubPlace>
+               <date when="1477">1477</date>
+               <edition>2nd ed.</edition>
+               <idno type="STC">5090</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="poem">
+            <pb n="1r"/>
+         <head><persName xml:id="anelida">Anelida</persName> and false <persName xml:id="arcyte">Arcyte</persName></head>
+     <lg>
+        <l><seg><hi rend="dropCap">T</hi>hou fiers god of armes</seg> / <seg><persName xml:id ="mars" type="myth">mars</persName> the rede</seg></l>
+        <l>That in the frosty contre called <placeName xml:id="trace">trace</placeName></l>
+     <l>Within thy grysly temple ful of drede</l>
+     <l>Honourd art as patron of that place</l>
+     <l><seg>With thy <persName xml:id="bellona">bellona</persName></seg> / <seg>pallas ful of grace</seg></l>
+     <l>Be present and my song contynue &amp; gye</l>
+     </lg>
+            <lg>
+     <l>At my begynnyng thus to the I crye</l>
+     <l>For it ful depe is sonken in my mynde</l>
+     <l>With piete9 herte in english for tendyte</l>
+     <l>This olde storye in latyn that I fynde</l>
+               <l>Of quene <persName>anelida</persName> &amp; fals <persName>arcyte</persName></l>
+     <l>That elde that all can frete and byte</l>
+     <l>As it hath freten many anoble storye</l>
+     <l>Hath nyh deuoured out of my memorye</l>
+            </lg>
+            <lg>
+     <l>Be fauorable eke thou <persName xml:id="polimia" type="myth">polimia</persName></l>
+     <l>On <placeName xml:id="pernaso">pernaso</placeName> that with thy sustren glade</l>
+     <l><seg>By <placeName xml:id="elycon">elycon</placeName></seg> / <seg>not fer from <placeName xml:id="cirrea">cirrea</placeName></seg></l>
+     <l>Singest with wis memorial in the shade</l>
+     <l>Vnder the laurer the whiche may not fade</l>
+     <l>And do that I my ship to hauen wynue</l>
+     <l>First folowe I stace and after that corynne</l>
+            </lg>
+            <pb n="1v"/>
+            <lg>
+               <l>Whan <persName xml:id="theseus">theseus</persName> with werres long &amp; grete</l>
+               <l><seg><rs type="nationality">Thaspre</rs> folk of <placeName xml:id="cithye"> cithye </placeName></seg> / <seg>had ouercome</seg></l>
+               <l>With laurer crowned ī his chare gold bete</l>
+               <l>Home to his contre hool is come</l>
+               <l><seg>For whiche the peple</seg> / <seg>blisful al and some</seg></l>
+               <l><seg>So cryeden</seg> / <seg>that to the sterres it wente</seg></l>
+               <l><seg>And hym to honouren</seg> / <seg>dide al thair entēte</seg></l>
+            </lg>
+            <lg>
+               <l>Biforn this duc in signe of victorie</l>
+               <l><seg>The trompes come</seg> / <seg>and in his baner large</seg></l>
+               <l><seg>The ymage of <persName type="myth">mars</persName></seg> / &amp; <seg>in tokenīg of glorie</seg></l>
+               <l>Men might see of tresour many a charge</l>
+               <l>Many bright helme &amp; many a spere &amp; targe</l>
+               <l>Mani a fresh kinght &amp; mani a blisful route</l>
+               <l>On hors &amp; fote al the felde aboute</l>
+            </lg>
+           <lg>
+               <l><seg><persName xml:id="ipolita">Ipolita</persName> his wyf</seg> / <seg>the hardy quene</seg></l>
+               <l><seg>Of <placeName>cythia</placeName></seg> / <seg>that he conquerd had</seg></l>
+               <l><seg>With <persName xml:id="emelie">emelie</persName></seg> / <seg>her youg suster shene</seg></l>
+               <l><seg>Fair in a chare of gold</seg> / <seg>he with hym lad</seg></l>
+               <l>That al ye groūd aboute her chare she sprad</l>
+               <l>With brightnes of the beaute of her face</l>
+               <l>Fulfillyd with largesse of alle grace</l>
+            </lg>
+            <pb n="2r"/>
+            <lg>
+               <l>With this tryūphe &amp; laurer crowned thus</l>
+            <l>In alle the floure of fortunes yeuyng</l>
+            <l>Lete I this noble prynce <persName>Theseus</persName></l>
+            <l>Toward <placeName xml:id="atthenes">atthenes</placeName> in his way rydyng</l>
+            <l>And fonde I wil shortly for to bryng</l>
+            <l>The sleyght way of that I gan to write</l>
+            <l>Of quene <persName>anelida</persName> / and false <persName>arcyte</persName></l>            
+            </lg>
+            <lg>
+            <l><persName type="myth">Mars</persName> that with his furyo9 cours of Ire</l>
+            <l>Tholde wrathe of <persName xml:id="Iuno" type="myth">Iuno</persName> to susfylle</l>
+            <l>Hath sette the peples hertes bothe a fire</l>
+            <l>Of <placeName xml:id="thebes">thebes</placeName> aud grece / eche other to kylle</l>
+            <l>With blody speres / ne rested neuer stylle</l>
+            <l>But thrōg / now here / now there amōge botle</l>
+            <l>Til eueryche other slowhe so were they wrothe</l>
+               </lg>
+            <lg>
+            <l>For whan <persName xml:id="amphiorax">amphiorax</persName> and <persName xml:id="tideus">tideus</persName></l>
+            <l><persName xml:id="ipomedon">Ipomedon</persName> and / <persName xml:id="parthonope">parthonope</persName> also</l>
+               <l>Were dede and slayn and proud <persName xml:id="capaneus">cāpane9</persName></l>
+           <l> And whan the wretched brethern two</l>
+            <l>Were slayn and kyng <persName xml:id="adrastus">adrastus</persName> hom y go</l>
+               <l>So desolate stode <placeName>thebes</placeName> / and so bare</l>
+               <l>That no wight / couthe remedye of his fare</l>
+            </lg>  
+            <pb n="2v"/>
+            <lg>
+               <l>And whan tholde <persName xml:id="creon">creon</persName> gan espye</l>
+               <l>How the blode ryal was brought adoun</l>
+               <l>He helde that cyte by his tyrannye</l>
+               <l>And dyde the gentyls of that regyoun</l>
+               <l><seg>To ben his frendes</seg> / <seg>&amp; women in that toun̄</seg></l>
+               <l>So what for loue of him / &amp; what for awe</l>
+               <l>The noble folk were to the toun̄ ydrawe</l>
+            </lg>
+            <lg>
+               <l><seg>Among alle these</seg> / <seg><persName>anelida</persName> the quene</seg></l>
+               <l><seg>Of <placeName xml:id="ermonye">ermonye</placeName></seg> / <seg>was in that toun̄ dwellyng</seg></l>
+               <l><seg>That fayrer was</seg> / <seg>than is the sonne shene</seg></l> 
+               <l>Thurgh the world so gan her name spryng</l>
+               <l><seg>That her to seen</seg> / <seg>had euery wyght lykyng</seg></l>
+               <l><seg>For as of trouth</seg> / <seg>is ther none her lyche</seg></l>
+               <l><seg>Of alle the women</seg> / <seg>in the world ryche</seg></l>
+            </lg>
+            <lg>
+               <l><seg>Yonge was this quene</seg> / <seg>of .xx. yere olde</seg></l>
+               <l><seg>Of myddel stature</seg> / <seg> &amp; of suche fayrnes</seg></l>
+               <l><seg>That nature had a Ioye</seg> / <seg>her to byholde</seg></l>
+               <l>And for to speke of her stedefastnes</l>
+               <l>She pussed hath <persName xml:id="penolope">penolope</persName> &amp; <persName xml:id="lucres">lucres</persName></l>
+               <l>And shortly yf she shal be comprehended</l>
+               <l>In her myght nothyng been amended</l>
+            </lg>
+            <pb n="3r"/>
+            <lg>
+               <l>This <rs type="nationality">theban</rs> knyght eke soth to seyne</l>
+               <l>Was yong &amp; ther with al a lusty knyght</l>
+               <l>But he was double in loue &amp; nothing pleyn̄</l>
+               <l>And subtyl in that craft ouer ony wight</l>
+               <l>And withe his cūnyng wan ye lady bright</l>
+               <l>For so ferforth he gan to her trouth ensure</l>
+               <l>That she hym trusted ouer ony crature</l> 
+            </lg>
+            <lg>
+               <l>What shold I seyn she loued <persName>arcyte</persName> so</l>
+               <l>That whan he was absent ony throwe</l>
+               <l>An̄on her thought her herte brest atwo</l>
+               <l>For in her sight to her he bare hym lowe</l>
+               <l>So that she wend haue al his herte yknowe</l>
+               <l>But he was fals it was but feyned chere</l>
+               <l>Al nedeth not to men suche craft te lere</l>
+            </lg>
+            <lg>
+               <l>But natheles ful mychel besynes</l>
+               <l>Had he or he myght his lady wynne</l>
+               <l>And sware he wold dye for destres</l>
+               <l>Or from his witte he said he wold twynne</l>
+               <l>Allas the whyle for it was routh &amp; synne</l>
+               <l>That she vpon his sorowes wold rewe</l>
+               <l>But nothing thinketh the fals as the trewe</l>
+            </lg>
+            <pb n="3v"/>
+            <lg>
+               <l>Hye fredam̄ fonde <persName>arcyte</persName> in suche manere</l>
+               <l><seg>That al was his that she hath</seg> / <seg>moche or lite</seg></l>
+               <l><seg>Ne to no creature</seg> / <seg>made she chere</seg></l>
+               <l><seg>Further</seg> / <seg>than that it lykyth to <placeName>arcyte</placeName></seg></l>
+               <l><seg>Ther nas lack</seg> / <seg>wherwith he myght her wite</seg></l>
+               <l>She was so ferforth yeuen him to plese</l>
+               <l>That al that lyketh hym it dede her eese</l>
+            </lg>
+            <lg>
+               <l><seg>Ther nas to her</seg> / <seg>no maner •rē sent</seg></l>
+               <l><seg>That touched loue</seg> / <seg>from ony maner wight</seg></l>
+               <l><seg>That she ne shewid it hym</seg> / <seg>er it was brent</seg></l>
+               <l>So pleyn she was &amp; dyd her ful myght</l>
+               <l>That she nel hiden nothīg from her knyght</l>
+               <l>Lest he of ony vntrouth her vpbreyde</l> 
+               <l><seg>With oute bode</seg> / <seg>his heste she obeyde</seg></l>
+            </lg>
+            <lg>
+               <l>And eke he made hym Ielouse ouer here</l>
+               <l>That whan ony man had to her said</l>
+               <l>Anon he wold prayen her to swere</l>
+               <l><seg>What was ye word</seg> / <seg>or make him euel paid</seg></l>
+               <l>And than wēde she out of her wyt haue brayd</l>
+               <l>But al this nas but sleyght &amp; flaterye</l>
+               <l>Without loue he feyned Ielousye</l>
+            </lg>
+            <pb n="4r"/>
+            <lg>
+               <l>And all this toke she so debonairly</l>
+               <l>That al his will it thought her skilful thīg</l>
+               <l>And euer the lenger she loueth hym tēderly</l>
+               <l><seg>And dide hym honour</seg> / <seg>as he were a kyng</seg></l>
+               <l>Her herte was to hym wedded with a ring</l>
+               <l><seg>So ferforth vpon trouthe</seg> / <seg>is her entente</seg></l>
+               <l><seg>That where he goth</seg> / <seg>her herte with hym wēte</seg></l>
+            </lg>
+            <lg>
+               <l><seg>Whan she shal ete</seg> / <seg>on hym is al her thought</seg></l>
+               <l><seg>That wel vnuethe</seg> / <seg>of mete toke she kepe</seg></l> 
+               <l>And whan yt she was to her reste ybrought</l>
+               <l><seg>On hym she thought alway</seg> / <seg>til yt she slepe</seg></l>
+               <l><seg>Whan he was absent</seg> / <seg>pryuely she wold wepe</seg></l>               
+               <l>Thus lyneth fayr <persName>anelyda</persName> the quene</l>
+               <l><seg>For fals <persName>arcyte</persName></seg> / <seg>that dyd her al this tene</seg></l>
+            </lg>
+            <lg>
+               <l><seg>This fals <persName>arcyte</persName></seg> / <seg>of his newfanglenes</seg></l> 
+               <l><seg>For she to hym</seg> / <seg>so lowly was and trewe</seg></l>
+              <l><seg>Toke lasse deynte</seg> / <seg>of her stedfastnes</seg></l>
+               <l>And sawe another <name xml:id="lady">lady</name> proude and newe</l>
+               <l>And right anon he clad hym in her hewe</l>  
+               <l><seg>Wote I not whether</seg> / <seg>in whyte rede or grene</seg></l>
+               <l>And falshede fair <persName>anelīda</persName> the quene</l>
+            </lg>
+            <pb n="4v"/>
+            <lg>
+               <l>But natheles grete wonder was it none</l>
+               <l><seg>Though he was fals</seg> / <seg>it is kynde of man̄</seg></l>
+               <l><seg>Syth lameth was</seg> / <seg>that is so long a goon</seg></l>
+               <l><seg>To be in loue as fals</seg> / <seg>as euer he can</seg></l>
+               <l>He was the first fader that began</l>
+               <l><seg>To louen two</seg> / <seg>and was in bygamye</seg></l>
+               <l>And he fond tentes first but yf men lye</l>
+            </lg>
+            <lg>
+               <l><seg>This fals <persName>arcyte</persName></seg> / <seg>somwhat muste he feyne</seg></l>
+               <l><seg>Whan he was fals</seg> / <seg>to couere his trayterye</seg></l>
+               <l><seg>Ryght as an hors</seg> / <seg>yt can both bite &amp; pleyne</seg></l>
+               <l><seg>For he bar her on hond</seg> / <seg>of trecherye</seg></l>
+               <l><seg>And swore</seg> / <seg>he couthe her doublenes espye</seg></l>
+               <l>And al was falsnes that she to hym ment</l> 
+               <l>Th9 swore this theef &amp; forth his way he went</l>
+            </lg>
+            <lg>
+               <l><seg>Allas what herte</seg> / <seg>myght enduren it</seg></l>
+               <l><seg>For routh &amp; woo</seg> / <seg>her sorow for to telle</seg></l>
+               <l>Or what man hath ye connyng or the witte</l>
+               <l>Or what man myght within ye chābre duelle</l>
+               <l>Yf that I reherce shold the helle</l>
+               <l>That suffreth fair <persName>anelida</persName> the quene</l>
+               <l><seg>For fals <persName>arcyte</persName></seg> / <seg>that dide her al this tene</seg></l>
+            </lg>
+            <pb n="5r"/>
+            <lg>
+               <l>She wepith. wayleth. sw•wneth pytously</l>
+               <l><seg>To ground dede</seg> / <seg>she falleth as a stone</seg></l> 
+               <l><seg>Crampissheth her lymē</seg> / <seg>••ckedly</seg></l>
+               <l>She spekith as her wit were al agone</l>
+               <l><seg>Other colour than asshen</seg> / <seg>hath she none</seg></l>
+               <l>None other worde speketh she moche or lyte</l>
+               <l>But mercy cruel herte myn <persName>arcyte</persName></l>
+            </lg>
+            <lg>
+            <l>And thus endureth til that she was so mate</l>
+            <l>That she nad foot on whiche she may sustene</l>
+            <l>But forth languysshing euer in this astate</l>
+            <l>On whiche <persName>arcyte</persName> hath couthe non ne tene</l>
+            <l><seg>His herte was els where</seg> / <seg>newe and grene</seg></l>
+            <l><seg>That on her woo</seg> / <seg>not deyneth hym to thinke</seg></l>
+            <l><seg>Hym recketh not</seg> / <seg>whether she flete or synke</seg></l>
+            </lg>
+            <lg>
+               <l>His newe lady holdeth hym so narow</l>
+               <l><seg>Vp by the brydel</seg> / <seg>at the staues ende</seg></l>
+               <l><seg>That euery worde</seg> / <seg>he drad as an arowe</seg></l>
+               <l>Her dan̄ger made hym bothe bowe and bende</l>
+               <l><seg>And as her liste</seg> / <seg>made hym turne &amp; wende</seg></l>
+               <l>For she ne granteth hym in her lyuyng</l>
+               <l><seg>No grace</seg> / <seg>why that he hath lust to syng</seg></l>
+            </lg>
+            <pb n="5v"/>
+            <lg>
+               <l>But d•of hym sorth vnnethe ••st her knowe</l>
+               <l><seg>That he was seruant</seg> / <seg>vnto her ladyship</seg></l>
+               <l>But leste y• he were proud she held hym lowe</l>
+               <l><seg>Thus serueth he</seg> / <seg>withoute mete or sype</seg></l>
+               <l>She sent hym now to land &amp; now to shype</l>
+               <l><seg>And for she gaf hym daunger</seg> / <seg>al his fyll</seg></l>
+               <l><seg>Ther fore she had hym</seg> / <seg>at her owen wyll</seg></l>
+               </lg>         
+               <lg>
+                 <l>Ensample of this ye thryfty women alle</l>
+                  <l>Taketh hede of <persName>anelida</persName> and <persName>arcyte</persName></l>
+                  <l><seg>That for her liste</seg> / <seg>hym dere herte calle</seg></l>
+                  <l><seg>And was so meke</seg> / <seg>therfore he loueth her lite</seg></l>
+                  <l><seg>The kynde of man̄s herte</seg> / <seg>is to delyte</seg></l>
+                  <l><seg>In thing that stran̄ge is</seg> / <seg>also <persName xml:id="god" type="christianity">god</persName> me saue</seg></l>
+                  <l><seg>For what he may not gete</seg> / <seg>that wold he haue</seg></l>
+               </lg>
+            <lg>
+               <l>Now torne we to <persName>anelida</persName> agayn̄</l>
+               <l>That pyneth day by day languysshyng</l>
+               <l><seg>But whan she sawe</seg> / <seg>that her gate no gayn̄</seg></l>
+               <l><seg>Vpon a day</seg> / <seg>ful sorowful wepyng</seg></l>
+               <l>She cast her•for to make a compleynyng</l>
+               <l>And of her owen hand she gan it wryte</l>
+               <l>And sende it to her <rs type="nationality">theban</rs> knyght <persName>arcyte</persName></l>
+            </lg>
+            <pb n="6r"/>
+            <div type="section">
+            <head>Here foloweth the compleynt of <persName>anelida</persName> quene of <name type="place">hermenye</name> vpon false <persName>arcyte</persName> of <placeName>Thebes</placeName>.</head>
+            <lg>
+               <l>So thirleth with the poīt of remembrance</l>
+               <l><seg>The swerd of sorow</seg> / <seg>whet with fals plesāce</seg></l> 
+               <l><seg>My hert bare of blisse</seg> / &amp; <seg>blak of hewe</seg></l>
+               <l><seg>That torned is</seg> / <seg>in quakyng</seg> / <seg>al my daunce</seg></l>
+               <l>My sewerte in a whaped con̄tenaunce</l>
+               <l>Syth it auaylleth not to be trewe</l>
+               <l>For who so trewest is it shal her rewe</l>
+               <l><seg>That serueth loue</seg> / <seg>and doth her obseruance</seg></l>
+               <l><seg>Alway tyl one</seg> / <seg>and changeth for no newe</seg></l>
+            </lg>
+                  <lg>
+                    <l><seg>I wote my self</seg> / <seg>as wel as ony wight</seg></l>
+                     <l>For I loued one with al my hert &amp; myght</l>
+                     <l><seg>More than my self</seg> / <seg>an .C. thousand sythe</seg></l> 
+                     <l><seg>And called hym</seg> / <seg>my hertis lyf</seg> / <seg>my knyght</seg></l>
+                     <l><seg>And was all his</seg> / <seg>as fer as it was right</seg></l> 
+                     <l><seg>And whan he was glad</seg> / <seg>than was I blithe</seg></l>
+                     <l><seg>And his disese</seg> / <seg>was my deth as swithe</seg></l>
+                     <l><seg>And he agayn</seg> / <seg>his trouth hath me plight</seg></l>
+                     <l><seg>For euermo</seg> / <seg>his lady me to kythe</seg></l>
+                  </lg>
+            <pb n="6v"/>
+                  <lg>
+                     <l><seg>Now is he fals</seg> / <seg>alas</seg>/ <seg>and causeles</seg></l>
+                     <l><seg>And of my woo</seg> / <seg>he is so routheles</seg></l>
+                     <l><seg>That with a word</seg> / <seg>hym list not ones deyne</seg></l>
+                     <l><seg>To brynge agayn</seg> / <seg>my sorouful herte in pe•</seg></l>
+                     <l><seg>For he is caught vp</seg> / <seg>in an other lees</seg></l>
+                     <l><seg>Ryght as hym lyst</seg> / <seg>he laweth at my peyne</seg></l>
+                     <l><seg>And I ne can my herte</seg> / <seg>not restreyne</seg></l>
+                     <l><seg>For to loue hym</seg> / <seg>neyther thelees</seg></l>
+                     <l><seg>And of alle this</seg> / <seg>I note to whom̄ to pleyne</seg></l>
+                    </lg>
+                    <lg>
+                     <l><seg>And shal I pleyne</seg> / <seg>alas the hard stounde</seg></l>
+                     <l><seg>Vnto my foo</seg> / <seg>that yaf my herte</seg> / <seg>a wounde</seg></l>
+                     <l><seg>And yet desireth</seg> / <seg>that my harme be more</seg></l>
+                     <l><seg>Nay certes</seg> / <seg>for ther shal neuer be founde</seg></l>
+                     <l><seg>None other helpe</seg> / <seg>my sores for to sounde</seg></l>
+                     <l><seg>My destyne hath shape it so</seg> / <seg>ful yore</seg></l>   
+                     <l><seg>I wil none other medycyn</seg> / <seg>ne lore</seg></l>
+                     <l><seg>I wyl be ay</seg> / <seg>ther I was ones bounde</seg></l>
+                     <l>That I haue seyd be seyd for euermore</l>
+                    </lg>
+                    <lg>
+                     <l><seg>Allas</seg> / <seg>where is bicome your gentillesse</seg></l>
+                     <l>Your wordes ful of plesance and humblesse</l>
+                     <l><seg>Your obsernances</seg> / <seg>and lo lowe manere</seg></l>
+                  </lg>
+            <pb n="7r"/>
+               <lg>
+                  <l><seg>Your awaytyng</seg> / <seg>and your besynesse</seg></l>
+                  <l><seg>Vpon me</seg> / <seg>that ye called your maistresse</seg></l> 
+                  <l>Your souerayne of thise world is here</l>
+                  <l><seg>Alas</seg> / <seg>and is ther now no word •e chere</seg></l>
+                  <l>Ye wuchen sauf, vpon my heuynesse</l>
+                  <l><seg>Alas</seg> / <seg>your loue</seg> / <seg>I bye it al to dere</seg></l>
+               </lg>
+            <lg>
+               <l><seg>Now certes swete</seg> / <seg>though that ye</seg></l>
+               <l><seg>Thus causeles</seg> / <seg>the cause be</seg></l>
+               <l><seg>Of my dedely</seg> / <seg>aduersite</seg></l>
+               <l><seg>Your manly reson</seg> / <seg>ought it to respyte</seg></l>
+               <l><seg>To sle your frende</seg> / <seg>&amp; namely me</seg></l>
+               <l>That neuer yet in no degre</l>
+               <l><seg>Offendyd</seg> / <seg>as wysly he</seg></l>
+               <l><seg>That al wote</seg> / <seg>oute of wo my soule quyte</seg></l>
+               <l>But for I was so playn <persName>arcyte</persName></l>
+               <l><seg>In al my werkis</seg> / <seg>moche &amp; lite</seg></l>
+               <l><seg>And so besy</seg> / <seg>you to delite</seg></l>
+               <l><seg>Myn honour sauf</seg> / <seg>meke. kynde. and free</seg></l>
+               <l>Therfore ye put on me this wite</l>
+               <l>And also ye reken not a myte</l>
+               <l>Though that the swerd of sorow bite</l>  
+               <l><seg>My woful herte</seg> / <seg>thurgh your cruelte</seg></l>
+            </lg>
+<pb n="7v"/>
+            <lg>
+               <l><seg>My swete foo</seg> / <seg>why doo ye so. for shame</seg></l>  
+               <l><seg>And thinke ye</seg> / <seg>that furtherd be</seg> / <seg>your name</seg></l>  
+               <l><seg>To loue a newe</seg> / <seg>and be vntrewe</seg> / <seg>nay</seg></l>
+               <l><seg>And put yow</seg> / <seg>in sklaundre now</seg> / <seg>&amp; blame</seg></l>
+               <l><seg>And do to me</seg> / <seg>aduersyte</seg> / <seg>and grame</seg></l>
+               <l><seg>That loue you most</seg> / <seg><persName type="christianity">god</persName> thou wost</seg> / <seg>alwaye</seg></l> 
+               <l><seg>Yet come agayn</seg> / <seg>&amp; be thou playn</seg> / <seg>som̄ daye</seg></l>
+               <l><seg>And then shal this</seg> / <seg>ye nowe is mis</seg> / <seg>be game</seg></l>
+               <l><seg>And all foryeue</seg> / <seg>whyle I lyue</seg> / <seg>maye</seg></l>
+               </lg>
+               <lg>
+               <l><seg>Lo herte myn</seg> / <seg>alle this is for to seyn</seg></l>
+               <l><seg>As whether shal I pray</seg> / <seg>or ellis pleyn</seg></l>
+               <l><seg>Whiche is the way</seg> / <seg>to do you to be trewe</seg></l>
+               <l>For eyther mote I han you in my cheyn</l>
+               <l><seg>Or with the deth</seg> / <seg>ye mote departe vs tweyn</seg></l>
+              <l>Ther lye none other mene weyes newe</l>
+               <l><seg>For <persName type="christianity">god</persName> so wysly</seg> / <seg>on my soule rewe</seg></l>
+               <l>As veryly ye sle me with the peyn</l>
+               <l>That may ye se vnfeyned an my hewe</l>
+               </lg>
+               <lg>
+               <l><seg>And shold I praye</seg> / <seg>and weyuen womāhede</seg></l>
+               <l><seg>Nay rather dye</seg> / <seg>than do so cruell dede</seg></l>
+               <l><seg>And axe mercy causeles</seg> / <seg>what need</seg></l>
+            </lg>
+          <pb n="8r"/>
+            <lg>
+               <l><seg>And yf I pleyne</seg> / <seg>what lyf that I lede</seg></l>
+               <l>Thenne wil ye lawhe I knowe it out of deede</l>
+               <l><seg>And yf that I to you</seg> / <seg>myn othes bede</seg></l>
+               <l><seg>For myn excuse</seg> / <seg>a skorn shal be my mede</seg></l>
+               <l><seg>Your chere flourith</seg> / <seg>but it wil not sede</seg></l>
+               <l><seg>For longe a goo</seg> / <seg>I ofte han take hede</seg></l>
+               </lg>
+            <lg>               
+               <l>For though I had you to morn ageyn</l>
+               <l>I myght as wel holde apryll for reyn</l>
+               <l><seg>As holden you</seg> / <seg>to make you stedfaste</seg></l>
+               <l>Alle myghty <persName type="christianity">god</persName> of trouth souereyn</l>
+               <l>Wher is ye trouthe of man who hath it sleyn</l>
+               <l>Who ye hym loueth shal hym fynde as faste</l>     
+               <l>As in a tempeste is a roten maste</l>
+               <l><seg>Is that a tame beest</seg> / <seg>that is ay fayn</seg></l>
+               <l><seg>To fle away</seg> / <seg>whan he is leest agaste</seg></l> 
+              </lg>
+               <lg>
+               <l><seg>But mercy swete</seg> / <seg>yf I mys seye</seg></l>
+               <l>Haue I ought seyd out of the weye</l>
+               <l><seg>I note</seg> / <seg>my witte is half a weye</seg></l>
+               <l>I fare as doth the songe of chanteplure</l>
+               <l><seg>For now I pleyne</seg> / <seg>and now I pleye</seg></l>
+               <l>I am so marred that I deye</l>
+            </lg>
+            <pb n="8v"/>
+            <lg>
+              <l><persName>Arcyte</persName> hath born awey the keye</l>
+               <l>Of alle my world and good auenture</l>
+               </lg>
+               <lg>
+              <l><seg>For in this world</seg> / <seg>nys creature</seg></l>
+              <l>Wakyng in more discumfiture</l>
+               <l><seg>Than I</seg> / <seg>ne more sorow endure</seg></l>
+               <l><seg>And yf I slepe</seg> / <seg>a furlong weye or twey</seg></l>
+               <l><seg>Thenne thinketh me</seg> / <seg>your fygure</seg></l>
+               <l><seg>Before me stont</seg> / <seg>clothid in azure</seg></l>
+               <l><seg>To profren eft</seg> / <seg>and new assure</seg></l>
+               <l><seg>For to be trewe</seg> / <seg>and loue me</seg> / <seg>til he deye</seg></l>
+               </lg>
+               <lg>
+               <l><seg>The longe nyght</seg> / <seg>this wonder sight</seg> / <seg>I drye</seg></l>
+               <l><seg>And on the day</seg> / <seg>for thilke affray</seg> / <seg>I dye</seg></l>
+               <l>And of all this right nought ywis ye recche</l>
+               <l><seg>Ne neuer mo</seg> / <seg>myn eyen two</seg> / <seg>be drye</seg></l>
+                  <l><seg>And to your routhe</seg> / <seg>&amp; to your trouthe</seg> / <seg>I crye</seg></l>
+               <l><seg>But wele awey</seg> / <seg>fer ben they</seg> / <seg>to fecche</seg></l>
+               <l><seg>Thus holdeth we</seg> / <seg>my destyne</seg> / <seg>a wrecche</seg></l>
+               <l><seg>But me to rede</seg> / <seg>out of this drede</seg> / <seg>or gye</seg></l>
+               <l><seg>Ne may my wyt</seg> / <seg>so weyke is it</seg> / <seg>not strecche</seg></l>
+               </lg>
+               <lg>
+               <l>Thenne I thus / syn I may do no more</l>
+            </lg>
+            <pb n="9r"/>
+            <lg>
+               <l><seg>I yeue it vp</seg> / <seg>for now and euermore</seg></l>
+               <l><seg>For shal I neuer</seg> / <seg>eft putten in balance</seg></l>
+               <l><seg>My sikernes</seg> / <seg>or lerne of loue the lore</seg></l>
+               <l><seg>But as the swan</seg> / <seg>I haue herd seye ful yore</seg></l>
+               <l><seg>Agayn his deth</seg> / <seg>shal syngen his penan̄ce</seg></l>
+               <l><seg>So synge I here</seg> / <seg>my destyne or chan̄ce</seg></l>
+               <l><seg>How that <persName>arcite</persName> </seg> / <seg><persName>anelida</persName> so sore</seg></l>
+               <l>Hath thirled with the peynt of remēbrāce</l>
+             </lg> 
+            </div>
+         <div type="section">
+               <head>Thus endeth the compleynt of <persName>anelida</persName></head>
+             <lg><!--- come back to ending above and header below-->
+               <l>The {con}pleīt of <persName>chaucer</persName> vnto his empty <objectName xml:id="purse">purse</objectName></l>
+               <l><seg>To you my purs</seg> / <seg>and to none other wight</seg></l>
+               <l>Compleyne I for ye be my lady dere</l>
+               <l><seg>I am sory now</seg> / <seg>that ye be light</seg></l>
+               <l><seg>For certes</seg> / <seg>ye now make me heuy chere</seg></l>
+               <l><seg>Me were as •ef</seg> / <seg>be leyd vpon a bere</seg></l>
+               <l><seg>For whiche</seg> / <seg>vnto your mercy thus I crye</seg></l>
+               <l><seg>Be heuy agayn</seg> / <seg>or ellis mote I dye</seg></l>
+             </lg>
+              <lg>
+               <l><seg>Now wuchesauf</seg> / <seg>this day or yet be nyght</seg></l>
+               <l><seg>That I of yow</seg> / <seg>the blisful sowne may here</seg></l>
+            </lg>
+            <pb n="9v"/>
+            <lg>
+               <l>Or see your colour like the sonne bright</l>
+               <l>That of yelownes had neuer pere</l>
+               <l><seg>Ye be my lyf</seg> / <seg>ye be my herte• stere</seg></l>
+               <l><seg>Quene of confort</seg> / <seg>and of good companye</seg></l>
+               <l><seg>Be heuy agayn</seg> / <seg>or ellis mote I dye</seg></l>
+             </lg>
+               <lg>
+               <l>Now purs that be to me my lyues light</l>
+               <l><seg>And saueour</seg> / <seg>as doun in this world here</seg></l>
+               <l>Out of this toun helpe me by your might</l>
+               <l>Syn that ye wil not be my tresorere</l>
+               <l><seg>For I am •haue</seg> / <seg>as nyghe as ony frere</seg></l>
+               <l>But I pray vnto your curtoisye</l>
+               <l><seg>Be heuy agayn</seg> / <seg>or ellis mote I dye</seg></l>
+               </lg>      
+         </div>
+            <div type="section">
+               <head>The nouye of <persName>chaucer</persName> vnto the kynge</head>
+               <lg>
+               <l>O <name xml:id="henry4">conquerour</name> of <placeName xml:id="britain">brutes albyon</placeName></l>
+               <l><seg>Whiche that by lyne</seg> / <seg>and fre election̄</seg></l>
+               <l><seg>Ben veray kynge</seg> / <seg>this to yow I sende</seg></l>
+               <l><seg>And ye that may</seg> / <seg>alle harmes amende</seg></l>
+                 <l>Haue mynde vpon my supplicacion̄</l>  
+               </lg>
+                 <ab type="explicit">Explicit.</ab>
+            <pb n="10r"/>
+            <lg>
+               <l>Whan feyth failleth in prestes sawes</l>
+               <l>And lordes hestes ar holden for lawes</l>
+               <l>And robbery is holden purchas</l>
+               <l>And lechery is holden solas</l>
+               <l>Than shal the lond of <placeName>albyon</placeName></l>
+               <l>Be brought to grete confusion̄</l>
+               </lg>
+               <lg>
+               <l>Hit falleth for euery gentilm̄an</l>
+               <l>To saye the best that he can</l>
+               <l>In mannes absence</l>
+               <l>And the soth in his presence</l>
+               <l>Hit cometh by kynde of gentil blode</l>
+                 <l>To cast away al heuynes</l>
+               <l>And gadre to gidre wordes good</l>
+               <l>The werk of wisedom herith witnes</l>
+               </lg>
+               <closer xml:lang = "lat">Et sic est finis</closer>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
+
+
+typeswitch ($original)
+    case text () return
+        (: Don't change the text :)
+    case element (tei:div) return
+        (: Create an HTML <div> element,
+        : and apply these rules to any child nodes :)
+    case element (tei:lg) return
+        (: Create an HTML <lg> element,
+        : and apply these rules to any child nodes :)
+    case element (tei:l) return
+        (: Create an HTML <l> element,
+        : and apply these rules to any child nodes :)
+    case element (tei:p) return
+        (: Create an HTML <p> element,
+        : and apply these rules to any child nodes :)
+    default return
+        (: Keep these as is too :)

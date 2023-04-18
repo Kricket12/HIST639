@@ -1,0 +1,15 @@
+xquery version "3.1";
+
+<lg>
+<l>line 1</l>
+<l>line 2</l>
+</lg>
+
+typeswitch ($original)
+
+case element (tei:lg) return
+(: Create an HTML <ol> element,
+: and apply these rules to any child nodes :)
+case element (tei:l) return
+(: Create an HTML <li>,
+: and apply these rules to any child nodes :)
