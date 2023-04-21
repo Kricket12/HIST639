@@ -48,29 +48,29 @@
       <body>
          <div type="poem">
             <pb n="1r"/>
-         <head><persName xml:id="anelida">Anelida</persName> and false <persName xml:id="arcyte">Arcyte</persName></head>
+         <head><persName ref="#anelida">Anelida</persName> and false <persName ref="#arcyte">Arcyte</persName></head>
      <lg>
-        <l><seg><hi rend="dropCap">T</hi>hou fiers god of armes</seg> / <seg><persName xml:id ="mars" type="myth">mars</persName> the rede</seg></l>
-        <l>That in the frosty contre called <placeName xml:id="trace">trace</placeName></l>
+        <l><seg><hi rend="dropCap">T</hi>hou fiers god of armes</seg> / <seg><persName ref="#mars" type="myth">mars</persName> the rede</seg></l>
+     <l>That in the frosty contre called <placeName ref="#trace">trace</placeName></l>
      <l>Within thy grysly temple ful of drede</l>
      <l>Honourd art as patron of that place</l>
-     <l><seg>With thy <persName xml:id="bellona">bellona</persName></seg> / <seg>pallas ful of grace</seg></l>
+     <l><seg>With thy <persName ref="#bellona">bellona</persName></seg> / <seg>pallas ful of grace</seg></l>
      <l>Be present and my song contynue &amp; gye</l>
      </lg>
             <lg>
-     <l>At my begynnyng thus to the I crye</l>
+     <l>At my begynnyng thus to the <persName ref="narrator">I</persName> crye</l>
      <l>For it ful depe is sonken in my mynde</l>
      <l>With piete9 herte in english for tendyte</l>
      <l>This olde storye in latyn that I fynde</l>
-               <l>Of quene <persName>anelida</persName> &amp; fals <persName>arcyte</persName></l>
+     <l>Of quene <persName ref="#anelida">anelida</persName> &amp; fals <persName ref="#arcyte">arcyte</persName></l>
      <l>That elde that all can frete and byte</l>
      <l>As it hath freten many anoble storye</l>
      <l>Hath nyh deuoured out of my memorye</l>
             </lg>
             <lg>
-     <l>Be fauorable eke thou <persName xml:id="polimia" type="myth">polimia</persName></l>
-     <l>On <placeName xml:id="pernaso">pernaso</placeName> that with thy sustren glade</l>
-     <l><seg>By <placeName xml:id="elycon">elycon</placeName></seg> / <seg>not fer from <placeName xml:id="cirrea">cirrea</placeName></seg></l>
+     <l>Be fauorable eke thou <persName ref="#polimia" type="myth">polimia</persName></l>
+     <l>On <placeName ref="#pernaso">pernaso</placeName> that with thy sustren glade</l>
+     <l><seg>By <placeName ref="#elycon">elycon</placeName></seg> / <seg>not fer from <placeName ref="#cirrea">cirrea</placeName></seg></l>
      <l>Singest with wis memorial in the shade</l>
      <l>Vnder the laurer the whiche may not fade</l>
      <l>And do that I my ship to hauen wynue</l>
@@ -78,8 +78,8 @@
             </lg>
             <pb n="1v"/>
             <lg>
-               <l>Whan <persName xml:id="theseus">theseus</persName> with werres long &amp; grete</l>
-               <l><seg><rs type="nationality">Thaspre</rs> folk of <placeName xml:id="cithye"> cithye </placeName></seg> / <seg>had ouercome</seg></l>
+               <l>Whan <persName ref="#theseus">theseus</persName> with werres long &amp; grete</l>
+               <l><seg><rs type="nationality">Thaspre</rs> folk of <placeName ref="#cithye">cithye</placeName></seg> / <seg>had ouercome</seg></l>
                <l>With laurer crowned ī his chare gold bete</l>
                <l>Home to his contre hool is come</l>
                <l><seg>For whiche the peple</seg> / <seg>blisful al and some</seg></l>
@@ -96,9 +96,9 @@
                <l>On hors &amp; fote al the felde aboute</l>
             </lg>
            <lg>
-               <l><seg><persName xml:id="ipolita">Ipolita</persName> his wyf</seg> / <seg>the hardy quene</seg></l>
+              <l><seg><persName ref="#ipolita">Ipolita</persName> his wyf</seg> / <seg>the hardy <persName ref="#ipolita">quene</persName></seg></l>
                <l><seg>Of <placeName>cythia</placeName></seg> / <seg>that he conquerd had</seg></l>
-               <l><seg>With <persName xml:id="emelie">emelie</persName></seg> / <seg>her youg suster shene</seg></l>
+              <l><seg>With <persName ref="#emelie">emelie</persName></seg> / <seg>her youg <persName ref="#emelie">suster</persName> shene</seg></l> <!--- do you really want to add the additional refs for emelie and ipolita -->
                <l><seg>Fair in a chare of gold</seg> / <seg>he with hym lad</seg></l>
                <l>That al ye groūd aboute her chare she sprad</l>
                <l>With brightnes of the beaute of her face</l>
@@ -108,33 +108,33 @@
             <lg>
                <l>With this tryūphe &amp; laurer crowned thus</l>
             <l>In alle the floure of fortunes yeuyng</l>
-            <l>Lete I this noble prynce <persName>Theseus</persName></l>
-            <l>Toward <placeName xml:id="atthenes">atthenes</placeName> in his way rydyng</l>
+               <l>Lete I this noble prynce <persName ref="#theseus">Theseus</persName></l>
+            <l>Toward <placeName ref="#atthenes">atthenes</placeName> in his way rydyng</l>
             <l>And fonde I wil shortly for to bryng</l>
             <l>The sleyght way of that I gan to write</l>
-            <l>Of quene <persName>anelida</persName> / and false <persName>arcyte</persName></l>            
+            <l>Of quene <persName ref="#anelida">anelida</persName> / and false <persName ref="#arcyte">arcyte</persName></l>            
             </lg>
             <lg>
-            <l><persName type="myth">Mars</persName> that with his furyo9 cours of Ire</l>
-            <l>Tholde wrathe of <persName xml:id="Iuno" type="myth">Iuno</persName> to susfylle</l>
+            <l><persName ref="mars" type="myth">Mars</persName> that with his furyo9 cours of Ire</l>
+            <l>Tholde wrathe of <persName ref="#iuno" type="myth">Iuno</persName> to susfylle</l>
             <l>Hath sette the peples hertes bothe a fire</l>
-            <l>Of <placeName xml:id="thebes">thebes</placeName> aud grece / eche other to kylle</l>
+            <l>Of <placeName ref="#thebes">thebes</placeName> aud grece / eche other to kylle</l>
             <l>With blody speres / ne rested neuer stylle</l>
             <l>But thrōg / now here / now there amōge botle</l>
             <l>Til eueryche other slowhe so were they wrothe</l>
                </lg>
             <lg>
-            <l>For whan <persName xml:id="amphiorax">amphiorax</persName> and <persName xml:id="tideus">tideus</persName></l>
-            <l><persName xml:id="ipomedon">Ipomedon</persName> and / <persName xml:id="parthonope">parthonope</persName> also</l>
-               <l>Were dede and slayn and proud <persName xml:id="capaneus">cāpane9</persName></l>
+            <l>For whan <persName ref="#amphiorax">amphiorax</persName> and <persName ref="#tideus">tideus</persName></l>
+            <l><persName ref="#ipomedon">Ipomedon</persName> and / <persName ref="#parthonope">parthonope</persName> also</l>
+               <l>Were dede and slayn and proud <persName ref="#capaneus">cāpane9</persName></l>
            <l> And whan the wretched brethern two</l>
-            <l>Were slayn and kyng <persName xml:id="adrastus">adrastus</persName> hom y go</l>
-               <l>So desolate stode <placeName>thebes</placeName> / and so bare</l>
+            <l>Were slayn and kyng <persName ref="#adrastus">adrastus</persName> hom y go</l>
+               <l>So desolate stode <placeName ref="#thebes">thebes</placeName> / and so bare</l>
                <l>That no wight / couthe remedye of his fare</l>
             </lg>  
             <pb n="2v"/>
             <lg>
-               <l>And whan tholde <persName xml:id="creon">creon</persName> gan espye</l>
+               <l>And whan tholde <persName ref="#creon">creon</persName> gan espye</l>
                <l>How the blode ryal was brought adoun</l>
                <l>He helde that cyte by his tyrannye</l>
                <l>And dyde the gentyls of that regyoun</l>
@@ -144,7 +144,7 @@
             </lg>
             <lg>
                <l><seg>Among alle these</seg> / <seg><persName>anelida</persName> the quene</seg></l>
-               <l><seg>Of <placeName xml:id="ermonye">ermonye</placeName></seg> / <seg>was in that toun̄ dwellyng</seg></l>
+               <l><seg>Of <placeName ref="#ermonye">ermonye</placeName></seg> / <seg>was in that toun̄ dwellyng</seg></l>
                <l><seg>That fayrer was</seg> / <seg>than is the sonne shene</seg></l> 
                <l>Thurgh the world so gan her name spryng</l>
                <l><seg>That her to seen</seg> / <seg>had euery wyght lykyng</seg></l>
@@ -156,7 +156,7 @@
                <l><seg>Of myddel stature</seg> / <seg> &amp; of suche fayrnes</seg></l>
                <l><seg>That nature had a Ioye</seg> / <seg>her to byholde</seg></l>
                <l>And for to speke of her stedefastnes</l>
-               <l>She pussed hath <persName xml:id="penolope">penolope</persName> &amp; <persName xml:id="lucres">lucres</persName></l>
+               <l>She pussed hath <persName ref="#penolope">penolope</persName> &amp; <persName ref="#lucres">lucres</persName></l>
                <l>And shortly yf she shal be comprehended</l>
                <l>In her myght nothyng been amended</l>
             </lg>
@@ -239,7 +239,7 @@
                <l><seg>This fals <persName>arcyte</persName></seg> / <seg>of his newfanglenes</seg></l> 
                <l><seg>For she to hym</seg> / <seg>so lowly was and trewe</seg></l>
               <l><seg>Toke lasse deynte</seg> / <seg>of her stedfastnes</seg></l>
-               <l>And sawe another <name xml:id="lady">lady</name> proude and newe</l>
+               <l>And sawe another <name ref="#lady">lady</name> proude and newe</l>
                <l>And right anon he clad hym in her hewe</l>  
                <l><seg>Wote I not whether</seg> / <seg>in whyte rede or grene</seg></l>
                <l>And falshede fair <persName>anelīda</persName> the quene</l>
@@ -316,7 +316,7 @@
                   <l><seg>That for her liste</seg> / <seg>hym dere herte calle</seg></l>
                   <l><seg>And was so meke</seg> / <seg>therfore he loueth her lite</seg></l>
                   <l><seg>The kynde of man̄s herte</seg> / <seg>is to delyte</seg></l>
-                  <l><seg>In thing that stran̄ge is</seg> / <seg>also <persName xml:id="god" type="christianity">god</persName> me saue</seg></l>
+                  <l><seg>In thing that stran̄ge is</seg> / <seg>also <persName ref="#god" type="christianity">god</persName> me saue</seg></l>
                   <l><seg>For what he may not gete</seg> / <seg>that wold he haue</seg></l>
                </lg>
             <lg>
@@ -508,7 +508,7 @@
          <div type="section">
                <head>Thus endeth the compleynt of <persName>anelida</persName></head>
              <lg><!--- come back to ending above and header below-->
-               <l>The {con}pleīt of <persName>chaucer</persName> vnto his empty <objectName xml:id="purse">purse</objectName></l>
+               <l>The {con}pleīt of <persName>chaucer</persName> vnto his empty <objectName ref="#purse">purse</objectName></l>
                <l><seg>To you my purs</seg> / <seg>and to none other wight</seg></l>
                <l>Compleyne I for ye be my lady dere</l>
                <l><seg>I am sory now</seg> / <seg>that ye be light</seg></l>
@@ -542,7 +542,7 @@
             <div type="section">
                <head>The nouye of <persName>chaucer</persName> vnto the kynge</head>
                <lg>
-               <l>O <name xml:id="henry4">conquerour</name> of <placeName xml:id="britain">brutes albyon</placeName></l>
+               <l>O <name ref="#henry4">conquerour</name> of <placeName ref="#britain">brutes albyon</placeName></l>
                <l><seg>Whiche that by lyne</seg> / <seg>and fre election̄</seg></l>
                <l><seg>Ben veray kynge</seg> / <seg>this to yow I sende</seg></l>
                <l><seg>And ye that may</seg> / <seg>alle harmes amende</seg></l>
@@ -568,7 +568,7 @@
                <l>And gadre to gidre wordes good</l>
                <l>The werk of wisedom herith witnes</l>
                </lg>
-               <closer xml:lang = "lat">Et sic est finis</closer>
+               <!--double check this xml standoff--> <closer xml:lang = "lat">Et sic est finis</closer>
             </div>
          </div>
       </body>

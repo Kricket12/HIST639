@@ -37,7 +37,24 @@
         <moduleRef key="linking"/>
         <!--<moduleRef key="textstructure" exclude= "div1 div2 div3 div4 div5 div6 div7"/>-->
         <!--add additional limitations once TEI is updated to fit new research questions-->
+      
+      <constraintSpec ident="ref-on-persName" scheme="schematron">
+        <constraint>
+          <sch:pattern/>
+        <sch:rule context="tei:persName">
+          <sch:let name="standoff"
+            value="doc('https://github.com/Kricket12/HIST639/raw/main/standoffMarkup.xml')"/>
+          <sch:let name="error" value="."/>
+          <sch:assert
+              test="@ref = $personIDs"
+            ><sch:value-of select="$error"/> All perNames must have a ref attribute. <sch:value-of select="$error"/> is not an identified person in the standoff markup for Anelida and False Arcyte.
+            <sch:value-of select="persnIDs"/>.
+          </sch:assert>
+        </sch:rule>
+      </sch:pattern>
+        </constraint>
+      </constraintSpec>
       </schemaSpec>
     </body>
   </text>
-</TEI>
+</TEI>   

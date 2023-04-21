@@ -1,26 +1,20 @@
 xquery version "3.1";
 
-declare function local: is-duplicate ($phrase as xs:string?) as xs:boolean
+declare variable $sentence := "When in the course of human events"
 
-When in the course of of human events...
+declare function local:is-duplicate($phrase as xs:string?) as xs:string
 {
-let $all-letters-as-codepoints := fn:string-to-codepoints ($phrase)
-let $first-letter := $all-letters-as-codepoints[1]
-Let $last-letter := $all-letters-as-codepoints[last()]
+let tokens := fn:lower-case($phrase) => fn: tokenize(" ")
+let $first-word := $tokens[1]
+let $next-word := $tokens[2]
 return
-(: Base case 1: Even number of letters; all pairs
-match; none left, so yes! :)
-if (fn:empty($first-letter)) then 
-true ()
-(: Base case 2: Letters duplicate :)
-else if ($first-letter ne $last-letter then
-false ()
-(:Recursive case: Letters duplicate, so check the next pair :)
-else
-let $new-letters := $all-letters-as-codepoints
-[position() = 2 to last() - 1]
-let $new-phrase := fn:codepoints-to-string
-($new-letters)
-return local: is-duplicate ($new-phrase)
-;
+    if (fn:empty(($next-word))) then "There is no duplicate." (:Here I used a base case that would only betrue at the end of the recursion.:)
+    else if ($first-word eq $next-word) then
+        fn:concat("Found a duplicate '", $first word, "' after word ", $first-wrod ! position(), " of the phrase.") (:NOW: HOW TO GET THE RIGHT NUBMER?:) 
+    else
+        let $new-phrase := fn:string-join($tokens[position() = 2 to last()], " ") (:I used last() her because it wouldn't work unlesss I passed the entire rest of tokens in!:)
+        return local:is-duplicate($new-phrase)
+        
+local:is-duplicate($sentence)
+
 

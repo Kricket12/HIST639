@@ -1,15 +1,29 @@
 xquery version "3.1";
+declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
+declare variable $doc :=
 <lg>
-<l>line 1</l>
-<l>line 2</l>
-</lg>
+    <l>--"a man, a ruler, and a sage;</l>
+    <l>A truly worthy model of the age."</l>
+</lg>;
 
-typeswitch ($original)
+declare function local:transform($nodes as node()*)
+{
+    for $node in $nodes
+    return
+        typeswitch ($node)
+            case text()
+                return
+                    $node
+            case element (lg)
+                return
+                    <ol>{local:transform(transform($node/node())}</ol>
+            case element(l)
+                return
+                    <li>{local:transform(transform($node/node())}</li>
+            default
+                return
+                    $node
+};
 
-case element (tei:lg) return
-(: Create an HTML <ol> element,
-: and apply these rules to any child nodes :)
-case element (tei:l) return
-(: Create an HTML <li>,
-: and apply these rules to any child nodes :)
+local:transform($doc)
