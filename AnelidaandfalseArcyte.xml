@@ -58,9 +58,9 @@
      <l>Be present and my song contynue &amp; gye</l>
      </lg>
             <lg>
-     <l>At my begynnyng thus to the <persName ref="narrator">I</persName> crye</l>
+     <l>At my begynnyng thus to the <persName ref="narrator">I</persName> <name type="grief">crye</name></l>
      <l>For it ful depe is sonken in my mynde</l>
-     <l>With piete9 herte in english for tendyte</l>
+     <l>With <name type="sympathy">piete9</name> herte in english for tendyte</l>
      <l>This olde storye in latyn that I fynde</l>
      <l>Of quene <persName ref="#anelida">anelida</persName> &amp; fals <persName ref="#arcyte">arcyte</persName></l>
      <l>That elde that all can frete and byte</l>
@@ -83,7 +83,7 @@
                <l>With laurer crowned ī his chare gold bete</l>
                <l>Home to his contre hool is come</l>
                <l><seg>For whiche the peple</seg> / <seg>blisful al and some</seg></l>
-               <l><seg>So cryeden</seg> / <seg>that to the sterres it wente</seg></l>
+               <l><seg>So <name type="grief">cryeden</name></seg> / <seg>that to the sterres it wente</seg></l>
                <l><seg>And hym to honouren</seg> / <seg>dide al thair entēte</seg></l>
             </lg>
             <lg>
