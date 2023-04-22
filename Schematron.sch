@@ -13,4 +13,18 @@
             </sch:assert>
         </sch:rule>
     </sch:pattern>
+
+
+       <sch:pattern>
+        <sch:rule context="tei:placeName">
+            <sch:let name="standoff"
+                value="doc('https://github.com/Kricket12/HIST639/raw/main/standoffMarkup.xml')"/>
+            <sch:let name="error" value="."/>
+            <sch:assert
+                test="@ref = $placeIDs"
+                ><sch:value-of select="$error"/> All placeNames must have a ref attribute. <sch:value-of select="$error"/> is not an identified person in the standoff markup for Anelida and False Arcyte.
+                <sch:value-of select="persnIDs"/>.
+            </sch:assert>
+        </sch:rule>
+        </sch:pattern>
 </sch:schema>
