@@ -39,117 +39,139 @@
       <listPerson>
          <person xml:id="chaucer">
             <persName>Geoffrey Chaucer</persName>
-            <sex>Male</sex>
-            <note>Author of the text</note>
+            <gender value="M"/>
+            <nationality>English</nationality>
+            <occupation>Poet</occupation>
          </person>
          <person xml:id="god">
             <persName type="christianity">God</persName>
-            <sex>Male</sex>
+            <gender value="M"/>
+            <occupation>deity</occupation>
+            <note>Christian god</note>
          </person>
          <person xml:id="arcyte">
             <persName>Arcyte</persName>
-            <sex>Male</sex>
+            <gender value="M"/>
             <nationality>Theban</nationality>
-            <note>Theban knight</note>
+            <occupation>Knight</occupation>
          </person>
          <person xml:id="theseus">
             <persName>Theseus</persName>
-            <sex>Male</sex>
+            <gender value="M"/>
             <nationality>Athenian</nationality>
-            <note>King of Athens</note>
+            <occupation>King</occupation>
          </person>
          <person xml:id="mars">
             <persName type="myth">Mars</persName>
-            <sex>Male</sex>
-            <note>Roman god of war</note>
+            <gender value="M"/>
+            <occupation>deity</occupation>
+            <nationality>Roman</nationality>
+            <note>God of war</note>
          </person>
          <person xml:id="amphiorax">
             <persName>Amphiorax</persName>
-            <sex>Male</sex>
+            <gender value="M"/>
+            <occupation>Knight</occupation>
             <note>Name translates to Amphiaraus. Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="tideus">
             <persName>Tideus</persName>
-            <sex>Male</sex>
+            <gender value="M"/>
+            <occupation>Knight</occupation>
             <note>Name translates to Tydeus. Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="ipomedon">
             <persName>Ipomedon</persName>
-            <sex>Male</sex>
+            <gender value="M"/>
+            <occupation>Knight</occupation>
             <note>Name translates to Hippomedon. Traditionally one of the Seven against Thebes</note>
          </person>
             <person xml:id="parthonope">
                <persName>Parthonope</persName>
-               <sex>Male</sex>
+               <gender value="M"/>
+               <occupation>Knight</occupation>
                <note>Name translates to Parthenopaeus. Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="capaneus">
             <persName>Capaneus</persName>
-            <sex>Male</sex>
+            <gender value="M"/>
+            <occupation>Knight</occupation>
             <note>Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="adrastus">
             <persName>Adrastus</persName>
-            <sex>Male</sex>
+            <gender value="M"/>
+            <occupation>Knight</occupation>
             <note>Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="creon">
             <persName>Creon</persName>
-            <sex>Male</sex>
-            <note>King of Thebes</note>
+            <gender value="M"/>
+            <nationality>Theban</nationality>
+            <occupation>King</occupation>
          </person>
           <person xml:id="henry4">
              <name>Henry IV</name>
-             <sex>Male</sex>
+             <gender value="M"/>
+             <nationality>English</nationality>
+             <occupation>King</occupation>
              <note>Also known as Henry Bolingbroke, who deposed Richard II and became Henry IV in 1400</note>
          </person>
          <person xml:id="anelida">
             <persName>Anelida</persName>
-            <sex>Female</sex>
+            <gender value="W"/>
             <nationality>Armenian</nationality>
-            <note>Queen of Armenia</note>
+            <occupation>Queen</occupation>
          </person>
          <person xml:id="ipolita">
             <persName>Ipolita</persName>
-            <sex>Female</sex>
+            <gender value="W"/>
             <nationality>Cythian</nationality>
+            <occupation>Queen</occupation>
             <note>Wife of Theseus, queen of Cythia, and sister to Emelie</note>
          </person>
          <person xml:id="emelie">
             <persName>Ipolita</persName>
-            <sex>Female</sex>
+            <gender value="W"/>
             <nationality>Cythian</nationality>
             <note>Sister to Ipolita</note>
          </person>
          <person xml:id="polimia">
             <persName>Polimia</persName>
-            <sex>Female</sex>
-            <note>A Greek muse</note>
+            <gender value="W"/>
+            <nationality>Greek</nationality>
+            <occupation>deity</occupation>
+            <note>Muse</note>
          </person>
          <person xml:id="iuno">
             <persName>Iuno</persName>
-            <sex>Female</sex>
+            <gender value="W"/>
+            <nationality>Roman</nationality>
+            <occupation>deity</occupation>
             <note>Chief Roman goddess. Name translates to Juno</note>
          </person>
          <person xml:id="bellona">
             <persName>Bellona</persName>
-            <sex>Female</sex>
-            <note>Roman goddess of war</note>
+            <gender value="W"/>
+            <nationality>Roman</nationality>
+            <occupation>deity</occupation>
+            <note>Goddess of war</note>
          </person>
          <person xml:id="penolope">
             <persName>Penolope</persName>
-            <sex>Female</sex>
+            <gender value="W"/>
             <note>Translated to Penelope. Traditionally the wife of Odysseus</note>
          </person>
          <person xml:id="lucres">
             <persName>Lucres</persName>
-            <sex>Female</sex>
-            <note>Translated to Lucretia or Lucrece. A noblewoman in ancient Rome, whose rape by Sextus Tarquinius (Tarquin) and subsequent suicide resulted in a rebellion and the transition of Roman government from a kingdom to a republic.</note>
+            <gender value="W"/>
+            <nationality>Roman</nationality>
+            <note>Translated to Lucretia or Lucrece. A noblewoman in ancient Rome, whose rape by sextus Tarquinius (Tarquin) and subsequent suicide resulted in a rebellion and the transition of Roman government from a kingdom to a republic.</note>
          </person>
          <person xml:id="lady">
             <name>Lady</name>
-            <sex>Female</sex>
-            <note>Woman who Arcyte pursues, which betrays his marriage to Anelida </note>
+            <gender value="W"/>
+            <note>Woman who Arcyte pursues, which betrays his marriage to Anelida.</note>
          </person>
       </listPerson>
       <listPlace>
