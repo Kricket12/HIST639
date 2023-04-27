@@ -139,7 +139,7 @@
          <person xml:id="polimia">
             <persName>Polimia</persName>
             <gender value="W"/>
-            <nationality>Greek</nationality>
+            <nationality ref="#grece">Greek</nationality>
             <occupation>deity</occupation>
             <note>Muse</note>
          </person>
@@ -172,6 +172,13 @@
             <name>Lady</name>
             <gender value="W"/>
             <note>Woman who Arcyte pursues, which betrays his marriage to Anelida.</note>
+         </person>
+         <person xml:id="pallas">
+            <name>Pallas</name>
+            <gender value="W"/>
+            <nationality ref="#grece">Greek</nationality>
+            <occupation>deity</occupation>
+            <note>One of the names of Athena</note>
          </person>
          <person xml:id="narrator">
             <name>Narrator</name>
