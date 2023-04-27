@@ -40,25 +40,25 @@
          <person xml:id="chaucer">
             <persName>Geoffrey Chaucer</persName>
             <gender value="M"/>
-            <nationality>English</nationality>
+            <nationality ref="#britain">English</nationality>
             <occupation>Poet</occupation>
          </person>
          <person xml:id="god">
             <persName type="christianity">God</persName>
             <gender value="M"/>
             <occupation>deity</occupation>
-            <note>Christian god</note>
+            <note>Abrahamic god</note>
          </person>
          <person xml:id="arcyte">
             <persName>Arcyte</persName>
             <gender value="M"/>
-            <nationality>Theban</nationality>
+            <nationality ref="#thebes">Theban</nationality>
             <occupation>Knight</occupation>
          </person>
          <person xml:id="theseus">
             <persName>Theseus</persName>
             <gender value="M"/>
-            <nationality>Athenian</nationality>
+            <nationality ref="#atthenes">Athenian</nationality>
             <occupation>King</occupation>
          </person>
          <person xml:id="mars">
@@ -107,13 +107,13 @@
          <person xml:id="creon">
             <persName>Creon</persName>
             <gender value="M"/>
-            <nationality>Theban</nationality>
+            <nationality ref="#thebes">Theban</nationality>
             <occupation>King</occupation>
          </person>
           <person xml:id="henry4">
              <name>Henry IV</name>
              <gender value="M"/>
-             <nationality>English</nationality>
+             <nationality ref="#britain">English</nationality>
              <occupation>King</occupation>
              <note>Also known as Henry Bolingbroke, who deposed Richard II and became Henry IV in 1400</note>
          </person>
@@ -173,11 +173,14 @@
             <gender value="W"/>
             <note>Woman who Arcyte pursues, which betrays his marriage to Anelida.</note>
          </person>
+         <person xml:id="narrator">
+            <name>Narrator</name>
+         </person>
       </listPerson>
       <listPlace>
          <place xml:id="trace">
-            <placeName>Trace</placeName>
-            <country>Greece</country>  
+            <settlement>Trace</settlement>
+            <country ref="#grece">Greece</country>  
             <note>Translates to Thrace</note>
          </place>
          <place xml:id="pernaso">
@@ -187,6 +190,17 @@
          <place xml:id="elycon">
             <placeName>Elycon</placeName>
          </place>
+         <place xml:id="corynne">
+            <placeName>Corynne</placeName>
+            <note>Translates to Corinna</note>
+         </place>
+         <place xml:id="stace">
+            <placeName>Stace</placeName>
+            <note>Translates to Statius</note>
+         </place>
+         <place xml:id="grece">
+            <country>Greece</country>
+         </place>
          <place xml:id="cirrea">
            <placeName>Cirrea</placeName> 
          </place>
@@ -195,13 +209,13 @@
             <note>Country of which Ipolita is queen</note>
          </place>
          <place xml:id="atthenes">
-            <placeName>Atthenes</placeName>
-            <country>Greece</country>  
+            <settlement>Atthenes</settlement>
+            <country ref="#grece">Greece</country>  
             <note>Translates to Athens</note>
          </place>
          <place xml:id="thebes">
-            <placeName>Thebes</placeName>
-            <country>Greece</country>  
+            <settlement>Thebes</settlement>
+            <country ref="#grece">Greece</country>  
             <note>Country of Arcyte's origin</note>
          </place>
          <place xml:id="ermonye">

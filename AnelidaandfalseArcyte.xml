@@ -105,7 +105,7 @@
             <pb n="2r"/>
             <lg>
             <l>With this tryūphe &amp; laurer crowned thus</l>
-            <l>In alle the floure of <persName ref="#fortune">fortunes</persName> yeuyng</l>
+            <l>In alle the floure of fortunes yeuyng</l>
             <l>Lete I this noble <persName ref="#theseus">prynce</persName> <persName ref="#theseus">Theseus</persName></l>
             <l>Toward <placeName ref="#atthenes">atthenes</placeName> in his way rydyng</l>
             <l>And fonde <persName ref="#narrator">I</persName> wil shortly for to bryng</l>
@@ -268,7 +268,7 @@
                <l>Or what man myght within ye chābre duelle</l>
                <l>Yf that <persName ref="#narrator">I</persName> reherce shold the <name type="grief">helle</name></l>
                <l>That <name type="grief">suffreth</name> fair <persName ref="#anelida">anelida</persName> the <persName ref="#anelida">quene</persName></l>
-               <l><seg>For fals <persName ref="arcyte">arcyte</persName></seg> / <seg>that dide her al this tene</seg></l>
+               <l><seg>For fals <persName ref="#arcyte">arcyte</persName></seg> / <seg>that dide her al this tene</seg></l>
             </lg>
             <pb n="5r"/>
             <lg>
@@ -566,7 +566,7 @@
                <l>And gadre to gidre wordes good</l>
                <l>The werk of wisedom herith witnes</l>
                </lg>
-               <!--double check this xml standoff--> <closer xml:lang= "lat">Et sic est finis</closer>
+               <closer xml:lang= "lat">Et sic est finis</closer>
             </div>
          </div>
          </div>
