@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-04-28T20:56:18Z. .
+Schema generated from ODD source 2023-04-28T20:49:44Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -7912,7 +7912,7 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                       context="tei:text//tei:placeName/@ref">
                <sch:let name="standoff"
                         value="doc('https://raw.githubusercontent.com/Kricket12/HIST639/main/standoffMarkup.xml')"/>
-               <sch:let name="placeIDs" value="$standoff//tei:listPlace/tei:place/@xml:id"/>
+               <sch:let name="personIDs" value="$standoff//tei:listPlace/tei:place/@xml:id"/>
                <sch:let name="placeRefValues"
                         value="for $i in $placeIDs return concat('#', $i)"/>
                <sch:let name="error" value="."/>

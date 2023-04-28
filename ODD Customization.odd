@@ -55,6 +55,19 @@
           </constraintSpec>
         </elementSpec>
         
+      <!--  <elementSpec ident="gender" module="namesdates" mode="add"/>
+        
+        <elementSpec ident="person" module="namesdates" mode="change">
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="persName" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="gender" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="nationality" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="occupation" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+            </sequence>
+          </content>
+        </elementSpec>-->
         
         <elementSpec ident="placeName" module="namesdates" mode="change">
           <constraintSpec ident="ref-on-placeName" scheme="schematron">
@@ -62,7 +75,7 @@
               <sch:rule context="tei:text//tei:placeName/@ref">
                 <sch:let name="standoff"
                   value="doc('https://raw.githubusercontent.com/Kricket12/HIST639/main/standoffMarkup.xml')"/>
-                <sch:let name="personIDs"
+                <sch:let name="placeIDs"
                   value="$standoff//tei:listPlace/tei:place/@xml:id"/>
                 <sch:let name="placeRefValues" value="for $i in $placeIDs return concat('#', $i)"/>
                 <sch:let name="error" value="."/>
