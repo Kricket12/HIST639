@@ -25,7 +25,8 @@ declare function local:transform($nodes as node()*) {
                 if ($node/@type eq "main") then <h1>{local:transform($node/node())}</h1>
                 else <h2>{local:transform($node/node())}</h2>
             case element (tei:lg) return <div>{local:transform($node/node())}</div>
-            case element (tei:l) return <p>{local:transform($node//node())}</p>
+            case element (tei:l) return <p>
+                {local:transform($node/tei:seg/node() | $node/node())}</p>
             case element (tei:persName) return 
                 <a href="{concat("./Standoff.xhtml", $node/@ref)}">{local:transform($node/node())}</a>
             case element (tei:placeName) return 
