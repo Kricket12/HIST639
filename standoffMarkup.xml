@@ -9,7 +9,7 @@
             <title>My Standoff Markup for Queen Anelida and false Arcyte</title>
             <respStmt>
                <resp>Editor</resp>
-               <name>Kristen York</name>
+               <persName>Kristen York</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -21,10 +21,10 @@
                <title>Queen Anelida and false Arcyte</title>
                by
                <author>
-                  <name>
+                  <persName>
                      <forename>Geoffrey</forename>
                      <surname>Chaucer</surname>
-                  </name>
+                  </persName>
                </author>
                <publisher>Printed by William Caxton</publisher>
                <pubPlace>London</pubPlace>
@@ -35,153 +35,154 @@
          </sourceDesc>
       </fileDesc>
   </teiHeader>
-   <standOff>
+   <text>
+      <body>
       <listPerson>
          <person xml:id="chaucer">
             <persName>Geoffrey Chaucer</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <nationality ref="#britain">English</nationality>
             <occupation>Poet</occupation>
          </person>
          <person xml:id="god">
             <persName type="christianity">God</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <occupation>deity</occupation>
             <note>Abrahamic god</note>
          </person>
          <person xml:id="arcyte">
             <persName>Arcyte</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <nationality ref="#thebes">Theban</nationality>
             <occupation>Knight</occupation>
          </person>
          <person xml:id="theseus">
             <persName>Theseus</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <nationality ref="#atthenes">Athenian</nationality>
             <occupation>King</occupation>
          </person>
          <person xml:id="mars">
             <persName type="myth">Mars</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <occupation>deity</occupation>
             <nationality>Roman</nationality>
             <note>God of war</note>
          </person>
          <person xml:id="amphiorax">
             <persName>Amphiorax</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <occupation>Knight</occupation>
-            <note>Name translates to Amphiaraus. Traditionally one of the Seven against Thebes</note>
+            <note>persName translates to Amphiaraus. Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="tideus">
             <persName>Tideus</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <occupation>Knight</occupation>
-            <note>Name translates to Tydeus. Traditionally one of the Seven against Thebes</note>
+            <note>persName translates to Tydeus. Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="ipomedon">
             <persName>Ipomedon</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <occupation>Knight</occupation>
-            <note>Name translates to Hippomedon. Traditionally one of the Seven against Thebes</note>
+            <note>persName translates to Hippomedon. Traditionally one of the Seven against Thebes</note>
          </person>
             <person xml:id="parthonope">
                <persName>Parthonope</persName>
-               <gender value="M"/>
+               <gender>Male</gender>
                <occupation>Knight</occupation>
-               <note>Name translates to Parthenopaeus. Traditionally one of the Seven against Thebes</note>
+               <note>persName translates to Parthenopaeus. Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="capaneus">
             <persName>Capaneus</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <occupation>Knight</occupation>
             <note>Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="adrastus">
             <persName>Adrastus</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <occupation>Knight</occupation>
             <note>Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="creon">
             <persName>Creon</persName>
-            <gender value="M"/>
+            <gender>Male</gender>
             <nationality ref="#thebes">Theban</nationality>
             <occupation>King</occupation>
          </person>
           <person xml:id="henry4">
-             <name>Henry IV</name>
-             <gender value="M"/>
+             <persName>Henry IV</persName>
+             <gender>Male</gender>
              <nationality ref="#britain">English</nationality>
              <occupation>King</occupation>
              <note>Also known as Henry Bolingbroke, who deposed Richard II and became Henry IV in 1400</note>
          </person>
          <person xml:id="anelida">
             <persName>Anelida</persName>
-            <gender value="W"/>
+            <gender>Female</gender>
             <nationality>Armenian</nationality>
             <occupation>Queen</occupation>
          </person>
          <person xml:id="ipolita">
             <persName>Ipolita</persName>
-            <gender value="W"/>
+            <gender>Female</gender>
             <nationality>Cythian</nationality>
             <occupation>Queen</occupation>
             <note>Wife of Theseus, queen of Cythia, and sister to Emelie</note>
          </person>
          <person xml:id="emelie">
             <persName>Ipolita</persName>
-            <gender value="W"/>
+            <gender>Female</gender>
             <nationality>Cythian</nationality>
             <note>Sister to Ipolita</note>
          </person>
          <person xml:id="polimia">
             <persName>Polimia</persName>
-            <gender value="W"/>
+            <gender>Female</gender>
             <nationality ref="#grece">Greek</nationality>
             <occupation>deity</occupation>
             <note>Muse</note>
          </person>
          <person xml:id="iuno">
             <persName>Iuno</persName>
-            <gender value="W"/>
+            <gender>Female</gender>
             <nationality>Roman</nationality>
             <occupation>deity</occupation>
-            <note>Chief Roman goddess. Name translates to Juno</note>
+            <note>Chief Roman goddess. persName translates to Juno</note>
          </person>
          <person xml:id="bellona">
             <persName>Bellona</persName>
-            <gender value="W"/>
+            <gender>Female</gender>
             <nationality>Roman</nationality>
             <occupation>deity</occupation>
             <note>Goddess of war</note>
          </person>
          <person xml:id="penolope">
             <persName>Penolope</persName>
-            <gender value="W"/>
+            <gender>Female</gender>
             <note>Translated to Penelope. Traditionally the wife of Odysseus</note>
          </person>
          <person xml:id="lucres">
             <persName>Lucres</persName>
-            <gender value="W"/>
+            <gender>Female</gender>
             <nationality>Roman</nationality>
             <note>Translated to Lucretia or Lucrece. A noblewoman in ancient Rome, whose rape by sextus Tarquinius (Tarquin) and subsequent suicide resulted in a rebellion and the transition of Roman government from a kingdom to a republic.</note>
          </person>
          <person xml:id="lady">
-            <name>Lady</name>
-            <gender value="W"/>
+            <persName>Lady</persName>
+            <gender>Female</gender>
             <note>Woman who Arcyte pursues, which betrays his marriage to Anelida.</note>
          </person>
          <person xml:id="pallas">
-            <name>Pallas</name>
-            <gender value="W"/>
+            <persName>Pallas</persName>
+            <gender>Female</gender>
             <nationality ref="#grece">Greek</nationality>
             <occupation>deity</occupation>
-            <note>One of the names of Athena</note>
+            <note>One of the persNames of Athena</note>
          </person>
          <person xml:id="narrator">
-            <name>Narrator</name>
+            <persName>Narrator</persName>
          </person>
       </listPerson>
       <listPlace>
@@ -231,7 +232,7 @@
          </place>
          <place xml:id="britain">
             <placeName>Brutes Albyon</placeName>
-            <note>Brutus was the legendary founder of Britain, which was named after him. "Albion" is the ancient Celtic name for Britain</note>
+            <note>Brutus was the legendary founder of Britain, which was persNamed after him. "Albion" is the ancient Celtic persName for Britain</note>
          </place>
       </listPlace>
       <listObject>
@@ -241,5 +242,6 @@
            </objectIdentifier>
         </object> 
       </listObject>
-   </standOff>
+      </body>
+   </text>
 </TEI>
