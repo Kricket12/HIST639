@@ -27,7 +27,7 @@ declare function local:transform($nodes as node()*) {
             (:case element (tei:persName) return 
                 <a href="{$node/@ref}">{local:transform($node/node())}</a>
             case element (tei:placeName) return 
-                <a href="{$node/@ref}">{local:transform($node/node())}</a>:)            
+                <a href="{$node/@ref}">{local:transform($node/node())}</a>:) 
             case element (gender) return <p>Gender: {local:transform($node/node()) }</p>
             case element (tei:death)  return <p>Death date: {local:transform($node/node()) }</p>
             case element (tei:floruit) return <p>Floruit: {local:transform($node/node()) }</p>
