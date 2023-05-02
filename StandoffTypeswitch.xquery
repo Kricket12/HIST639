@@ -14,7 +14,7 @@ declare function local:transform($nodes as node()*) {
             case element (tei:teiHeader) return 
                 <head>
                     {local:transform($node/node())}
-                    <link rel="stylesheet" href="./CSS/SeverusLetters.css"/>
+                    <link rel="stylesheet" href="../CSS/AnelidaandfalseArciteCSS.css"/>
                     <meta charset="UTF-8"/>
                     <meta name="viewport" content="width=device-width" initial-scale="1.0"/>
                 </head>
@@ -28,12 +28,14 @@ declare function local:transform($nodes as node()*) {
                 <a href="{$node/@ref}">{local:transform($node/node())}</a>
             case element (tei:placeName) return 
                 <a href="{$node/@ref}">{local:transform($node/node())}</a>:) 
-            case element (gender) return <p>Gender: {local:transform($node/node()) }</p>
+            case element (tei:gender) return <p>Gender: {local:transform($node/node()) }</p>
             case element (tei:death)  return <p>Death date: {local:transform($node/node()) }</p>
             case element (tei:floruit) return <p>Floruit: {local:transform($node/node()) }</p>
             case element (tei:occupation) return <p>Occupation: {local:transform($node/node()) }</p>
-            case element (tei:desc) return <p>Description: {local:transform($node/node()) }</p>
+            case element (tei:note) return <p>Note: {local:transform($node/node()) }</p>
             case element (tei:nationality) return <p>Nationality: {local:transform($node/node()) }</p>
+            case element (tei:country) return <p>Country: {local:transform($node/node()) }</p>
+            case element (tei:region) return <p>Region: {local:transform($node/node()) }</p>
             default return ()
 };
 

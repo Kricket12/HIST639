@@ -73,19 +73,19 @@
             <persName>Amphiorax</persName>
             <gender>Male</gender>
             <occupation>Knight</occupation>
-            <note>persName translates to Amphiaraus. Traditionally one of the Seven against Thebes</note>
+            <note>Name translates to Amphiaraus. Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="tideus">
             <persName>Tideus</persName>
             <gender>Male</gender>
             <occupation>Knight</occupation>
-            <note>persName translates to Tydeus. Traditionally one of the Seven against Thebes</note>
+            <note>Name translates to Tydeus. Traditionally one of the Seven against Thebes</note>
          </person>
          <person xml:id="ipomedon">
             <persName>Ipomedon</persName>
             <gender>Male</gender>
             <occupation>Knight</occupation>
-            <note>persName translates to Hippomedon. Traditionally one of the Seven against Thebes</note>
+            <note>Name translates to Hippomedon. Traditionally one of the Seven against Thebes</note>
          </person>
             <person xml:id="parthonope">
                <persName>Parthonope</persName>
@@ -149,7 +149,7 @@
             <gender>Female</gender>
             <nationality>Roman</nationality>
             <occupation>deity</occupation>
-            <note>Chief Roman goddess. persName translates to Juno</note>
+            <note>Chief Roman goddess. Name translates to Juno</note>
          </person>
          <person xml:id="bellona">
             <persName>Bellona</persName>
@@ -179,7 +179,7 @@
             <gender>Female</gender>
             <nationality ref="#grece">Greek</nationality>
             <occupation>deity</occupation>
-            <note>One of the persNames of Athena</note>
+            <note>One of the names of Athena</note>
          </person>
          <person xml:id="narrator">
             <persName>Narrator</persName>
@@ -187,7 +187,7 @@
       </listPerson>
       <listPlace>
          <place xml:id="trace">
-            <settlement>Trace</settlement>
+            <placeName>Trace</placeName>
             <country ref="#grece">Greece</country>  
             <note>Translates to Thrace</note>
          </place>
@@ -217,12 +217,12 @@
             <note>Country of which Ipolita is queen</note>
          </place>
          <place xml:id="atthenes">
-            <settlement>Atthenes</settlement>
+            <placeName>Atthenes</placeName>
             <country ref="#grece">Greece</country>  
             <note>Translates to Athens</note>
          </place>
          <place xml:id="thebes">
-            <settlement>Thebes</settlement>
+            <placeName>Thebes</placeName>
             <country ref="#grece">Greece</country>  
             <note>Country of Arcyte's origin</note>
          </place>
